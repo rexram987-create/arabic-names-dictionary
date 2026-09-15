@@ -12,3 +12,10 @@ main,.cards,.card,.card *{min-width:0;max-width:100%}
   .card{padding:16px}
   .card p{white-space:normal}
 }
+/* Definitive single-column mobile layout */
+@media(max-width:700px){
+  main{max-width:none;margin:0;padding:14px 16px}
+  .cards{display:block;width:100%}
+  .card{display:block;width:100%;max-width:100%;margin:0 0 14px;padding:16px;overflow:visible}
+  .card p,.card h3{width:auto;max-width:100%;margin-left:0;margin-right:0;overflow-wrap:break-word}
+}
