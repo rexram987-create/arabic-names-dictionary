@@ -4,7 +4,7 @@ function norm(v=""){return String(v).normalize("NFKD").replace(/[\u0591-\u05C7\u
 function render(){
  const s=norm(q.value);
  const x=names.filter(n=>{
-  if(filter!=="all"&&n.gender!==filter)return false;
+  if(filter==="female"||filter==="male"){if(n.gender!==filter)return false;}else if(filter==="biblical"&&n.category!=="biblical")return false;
   const hay=[n.he,n.ar,n.latin,n.meaning,n.linguistic,n.cultural].map(norm).join(" ");
   return !s||hay.includes(s);
  });
