@@ -36,3 +36,5 @@ header,main,footer{width:100%;max-width:100vw;margin-left:auto;margin-right:auto
  .cards{width:100%;max-width:100%;margin:0;padding:0}
  .card{box-sizing:border-box;width:100%;max-width:100%;margin:0 0 14px}
 }
+.speak{margin-top:10px;padding:7px 10px;border-radius:10px;font-size:.85rem;cursor:pointer}
+.speak:active{transform:scale(.98)}
