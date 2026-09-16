@@ -9,7 +9,7 @@ function render(){
   return !s||hay.includes(s);
  });
  count.textContent=x.length+" שמות";
- cards.innerHTML=x.map(n=>`<article class="card"><div class="name-row"><div><div class="arabic" lang="ar" dir="rtl">${n.ar}</div><div class="hebrew">${n.he}</div><div class="latin" dir="ltr">${n.latin}</div><button class="speak" type="button" data-ar="${n.ar}" aria-label="השמעת ${n.he} בערבית">🔊 הגייה</button></div><span class="tag">${n.gender==="female"?"נקבה":"זכר"}</span></div><h3>משמעות</h3><p>${n.meaning}</p><h3>מקור לשוני</h3><p>${n.linguistic}</p><h3>משמעות / הקשר תרבותי</h3><p>${n.cultural}</p></article>`).join("")||"<p>לא נמצאו שמות מתאימים.</p>";
+ cards.innerHTML=x.map(n=>`<article class="card"><div class="name-row"><div><div class="arabic" lang="ar" dir="rtl">${n.ar}</div><div class="hebrew">${n.he}</div><div class="latin" dir="ltr">${n.latin}</div><button class="speak" type="button" data-ar="${n.ar}" aria-label="השמעת ${n.he} בערבית">🔊 הגייה</button></div><span class="tag">${n.gender==="female"?"נקבה":"זכר"}</span></div><h3>משמעות</h3><p>${n.meaning}</p><p class="certainty"><strong>רמת ודאות:</strong> ${n.certainty||"בבדיקה"}</p><h3>מקור לשוני</h3><p>${n.linguistic}</p><h3>משמעות / הקשר תרבותי</h3><p>${n.cultural}</p></article>`).join("")||"<p>לא נמצאו שמות מתאימים.</p>";
 }
 fetch("/names.json",{cache:"no-store"}).then(r=>r.json()).then(x=>{names=x;render()});
 q.addEventListener("input",render);q.addEventListener("search",render);q.addEventListener("keyup",render);
