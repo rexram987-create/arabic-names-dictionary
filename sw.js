@@ -1,1 +1,19 @@
-const C="arabic-names-v7";const A=["/","/index.html","/style.css","/app.js","/names.json","/manifest.webmanifest","/icons/icon-192.png","/icons/icon-512.png"];self.addEventListener("install",e=>e.waitUntil(caches.open(C).then(c=>c.addAll(A))));self.addEventListener("activate",e=>e.waitUntil(caches.keys().then(ks=>Promise.all(ks.filter(k=>k!==C).map(k=>caches.delete(k))))));self.addEventListener("fetch",e=>e.respondWith(caches.match(e.request).then(r=>fetch(e.request).then(n=>{const z=n.clone();caches.open(C).then(c=>c.put(e.request,z));return n}).catch(()=>r))));
+const C="arabic-names-v8";
+const A=["/","/index.html","/style.css","/app.js","/names.json","/manifest.webmanifest","/icons/icon-192.png","/icons/icon-512.png"];
+self.addEventListener("install",e=>e.waitUntil(caches.open(C).then(c=>c.addAll(A)).then(()=>self.skipWaiting())));
+self.addEventListener("activate",e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith("arabic-names-")&&k!==C).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
+self.addEventListener("fetch",e=>{
+ if(e.request.method!=="GET"||new URL(e.request.url).origin!==self.location.origin)return;
+ e.respondWith((async()=>{
+  const cache=await caches.open(C);
+  try{
+   const response=await fetch(e.request);
+   if(response.ok&&response.type==="basic")await cache.put(e.request,response.clone());
+   return response;
+  }catch(err){
+   const saved=await cache.match(e.request);
+   if(saved)return saved;
+   throw err;
+  }
+ })());
+});
