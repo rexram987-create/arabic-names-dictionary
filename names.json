@@ -21,7 +21,17 @@
     "linguistic": "מן השורש ו־פ־ק, הקשור להתאמה ולהצלחה.",
     "cultural": "מקובל להסביר את השם כ'הצלחה מאלוהים'.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: بالتوفيق — הצלחה",
+        "url": "https://en.wiktionary.org/wiki/بالتوفيق"
+      },
+      {
+        "title": "ויקימילון: موفق — שורש ו־פ־ק",
+        "url": "https://en.wiktionary.org/wiki/موفق"
+      }
+    ]
   },
   {
     "id": "rula",
@@ -81,7 +91,13 @@
     "linguistic": "המילה הערבית عمل פירושה עבודה או עשייה.",
     "cultural": "מתועד כאן גם על סמך שימוש בשם בפועל שסופר לנו מפי דוברת ערבית. לא להתבלבל עם أمل.",
     "category": "general",
-    "certainty": "מספר פירושים או מסורות"
+    "certainty": "מספר פירושים או מסורות",
+    "sources": [
+      {
+        "title": "ויקימילון: عَمَل — עבודה ועשייה",
+        "url": "https://ar.wiktionary.org/wiki/عَمَل"
+      }
+    ]
   },
   {
     "id": "amal",
@@ -93,7 +109,13 @@
     "linguistic": "أمل היא המילה הערבית לתקווה/שאיפה.",
     "cultural": "לא להתבלבל עם عَمَل — עבודה או עשייה.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: أمل — תקווה",
+        "url": "https://en.wiktionary.org/wiki/أمل"
+      }
+    ]
   },
   {
     "id": "muhammad",
@@ -105,7 +127,13 @@
     "linguistic": "מן השורש ح م د, הקשור לשבח ולהודיה.",
     "cultural": "שם מרכזי בעולם הערבי והמוסלמי, על שם הנביא מוחמד.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: محمد — שם ושורש ח־מ־ד",
+        "url": "https://en.wiktionary.org/wiki/محمد"
+      }
+    ]
   },
   {
     "id": "ahmad",
@@ -369,7 +397,13 @@
     "linguistic": "שם שמי עתיק המקביל לשלמה העברי (Shlomo), מן משפחת המילים של ש־ל־ם/שלום.",
     "cultural": "סולימאן הוא שלמה המלך במסורת המקראית ונביא חשוב גם בקוראן.",
     "category": "biblical",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: Süleyman — התפתחות השם שלמה",
+        "url": "https://en.wiktionary.org/wiki/Süleyman"
+      }
+    ]
   },
   {
     "id": "mansur",
