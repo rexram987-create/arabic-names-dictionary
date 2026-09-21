@@ -41,12 +41,18 @@ let dp;const ib=document.querySelector("#install");addEventListener("beforeinsta
 function speakArabic(text){
  if(!("speechSynthesis" in window)){count.textContent="המכשיר אינו תומך בהקראה.";return}
  speechSynthesis.cancel();
- const isAbdallah=/^عَبْدُ الله$|^عبد الله$/.test(text.trim());
- // TTS-only vowel marks clarify the final د and the linking vowel; keep the displayed name unchanged.
- const spoken=isAbdallah?"عَبْدُ اللّٰهِ":text;
- const u=new SpeechSynthesisUtterance(spoken);u.lang="ar";
  const ar=speechSynthesis.getVoices().find(v=>String(v.lang).toLowerCase().startsWith("ar"));
- if(ar)u.voice=ar;u.rate=isAbdallah?.68:.82;
- speechSynthesis.speak(u);
+ const isAbdallah=/^عَبْدُ الله$|^عبد الله$/.test(text.trim());
+ // The phone's TTS swallowed د in the connected phrase. Speak عبد as a separate
+ // word first so its final consonant is audible, then pronounce الله.
+ // This affects audio only: the displayed Arabic name remains unchanged.
+ const parts=isAbdallah?["عَبْدْ","اللّٰه"]: [text];
+ for(const part of parts){
+  const u=new SpeechSynthesisUtterance(part);
+  u.lang="ar";
+  if(ar)u.voice=ar;
+  u.rate=isAbdallah?.72:.82;
+  speechSynthesis.speak(u);
+ }
 }
 cards.addEventListener("click",e=>{const b=e.target.closest(".speak");if(b)speakArabic(b.dataset.ar)});
