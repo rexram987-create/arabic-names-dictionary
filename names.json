@@ -2520,5 +2520,189 @@
       }
     ],
     "category": "general"
+  },
+  {
+    "id": "yasser",
+    "he": "יַאסֶר",
+    "ar": "يَاسِر",
+    "latin": "Yasser",
+    "gender": "male",
+    "meaning": "מי שקל לו או מי שמקל; קשור גם לנוחות ולעושר.",
+    "linguistic": "מן השורש ي־س־ر, הקשור לקלות וליכולת.",
+    "cultural": "שם בשימוש במצרים ובארצות ערב נוספות.",
+    "category": "general",
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: ياسر — ערך לשוני",
+        "url": "https://en.wiktionary.org/wiki/%D9%8A%D8%A7%D8%B3%D8%B1"
+      }
+    ]
+  },
+  {
+    "id": "hanan",
+    "he": "חַנַאן",
+    "ar": "حَنَان",
+    "latin": "Hanan",
+    "gender": "female",
+    "meaning": "חמלה, רוך וחיבה.",
+    "linguistic": "שם עצם מן השורש ح־ن־ن, הקשור לגעגוע ולחמלה.",
+    "cultural": "שם נשי בשימוש במצרים ובמדינות ערב נוספות; לעיתים משמש גם גברים.",
+    "category": "general",
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: حنان — ערך לשוני",
+        "url": "https://en.wiktionary.org/wiki/%D8%AD%D9%86%D8%A7%D9%86"
+      }
+    ]
+  },
+  {
+    "id": "hiba",
+    "he": "הִבַּה",
+    "ar": "هِبَة",
+    "latin": "Hiba / Heba",
+    "gender": "female",
+    "meaning": "מתנה; הענקה.",
+    "linguistic": "שם עצם מן הפועל وَهَبَ — נתן או העניק.",
+    "cultural": "שם נשי מוכר במצרים ובמדינות ערב נוספות.",
+    "category": "general",
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: هبة — ערך לשוני",
+        "url": "https://en.wiktionary.org/wiki/%D9%87%D8%A8%D8%A9"
+      }
+    ]
+  },
+  {
+    "id": "hashim",
+    "he": "הַאשֶׁם",
+    "ar": "هَاشِم",
+    "latin": "Hashim / Hashem",
+    "gender": "male",
+    "meaning": "השובר או המפורר.",
+    "linguistic": "בינוני פועל מן השורש ه־ش־م — שבר או ריסק.",
+    "cultural": "שם בעל הקשר היסטורי למשפחה ההאשמית בירדן; אינו ייחודי לירדן.",
+    "category": "general",
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: هاشم — ערך לשוני",
+        "url": "https://en.wiktionary.org/wiki/%D9%87%D8%A7%D8%B4%D9%85"
+      }
+    ]
+  },
+  {
+    "id": "bayan",
+    "he": "בַּיַאן",
+    "ar": "بَيَان",
+    "latin": "Bayan",
+    "gender": "both",
+    "meaning": "בהירות, הבהרה או ביטוי ברור.",
+    "linguistic": "שם עצם מן השורש ب־ي־ن — להיות ברור ולהבהיר.",
+    "cultural": "שם בשימוש בירדן ובמדינות ערב נוספות; מגדר השימוש משתנה.",
+    "category": "general",
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: بيان — ערך לשוני",
+        "url": "https://en.wiktionary.org/wiki/%D8%A8%D9%8A%D8%A7%D9%86"
+      }
+    ]
+  },
+  {
+    "id": "nadine",
+    "he": "נַדִין",
+    "ar": "نَادِين",
+    "latin": "Nadine",
+    "gender": "female",
+    "meaning": "תקווה, על פי מקורו הסלאבי של השם.",
+    "linguistic": "צורה צרפתית של Nadia, הקשורה ל־Nadezhda הסלאבי — תקווה; אין לגזור את משמעותה מן הכתיב הערבי בלבד.",
+    "cultural": "שם בינלאומי המשמש גם בלבנון, ובין היתר בקהילות נוצריות.",
+    "category": "general",
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "Behind the Name: Nadine — מקור השם",
+        "url": "https://www.behindthename.com/name/nadine"
+      },
+      {
+        "title": "Nadine — מקור צרפתי וקשר ל־Nadia",
+        "url": "https://en.wikipedia.org/wiki/Nadine_(given_name)"
+      }
+    ]
+  },
+  {
+    "id": "jad",
+    "he": "גַ'אד",
+    "ar": "جَاد",
+    "latin": "Jad",
+    "gender": "male",
+    "meaning": "נדיב או רציני, בהתאם לשורש ולהקשר.",
+    "linguistic": "הכתיב הלא מנוקד جاد עשוי להתקשר ל־جَادَ (נהג בנדיבות) או ל־جِدّ (רצינות); יש להבחין בין הגזירות.",
+    "cultural": "שם גברי בשימוש בלבנון ובמדינות ערב נוספות.",
+    "category": "general",
+    "certainty": "בינונית",
+    "sources": [
+      {
+        "title": "ויקימילון: جاد — ערך לשוני",
+        "url": "https://en.wiktionary.org/wiki/%D8%AC%D8%A7%D8%AF"
+      }
+    ]
+  },
+  {
+    "id": "marwan",
+    "he": "מַרְוַאן",
+    "ar": "مَرْوَان",
+    "latin": "Marwan",
+    "gender": "male",
+    "meaning": "שם ערבי עתיק המקושר ל־مَرْو, אבן צור או אבן קשה.",
+    "linguistic": "שם שנגזר ככל הנראה מן המילה مَرْو; יש להבחין בין משמעות המילה לבין פרשנויות עממיות לשם.",
+    "cultural": "שם גברי מוכר בלבנון ובמדינות ערב נוספות.",
+    "category": "general",
+    "certainty": "בינונית",
+    "sources": [
+      {
+        "title": "ויקימילון: مروان — ערך לשוני",
+        "url": "https://en.wiktionary.org/wiki/%D9%85%D8%B1%D9%88%D8%A7%D9%86"
+      }
+    ]
+  },
+  {
+    "id": "basem",
+    "he": "בַּאסֶם",
+    "ar": "بَاسِم",
+    "latin": "Basem / Bassem",
+    "gender": "male",
+    "meaning": "מחייך.",
+    "linguistic": "בינוני פועל מן بَسَمَ — חייך.",
+    "cultural": "שם גברי בשימוש בסוריה ובמדינות ערב נוספות.",
+    "category": "general",
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: باسم — ערך לשוני",
+        "url": "https://en.wiktionary.org/wiki/%D8%A8%D8%A7%D8%B3%D9%85"
+      }
+    ]
+  },
+  {
+    "id": "najwa",
+    "he": "נַגְ'וַא",
+    "ar": "نَجْوَى",
+    "latin": "Najwa",
+    "gender": "female",
+    "meaning": "שיחת סוד או שיחה שקטה ואינטימית.",
+    "linguistic": "שם עצם מן השורש ن־ج־و בהקשר של שיחה בסתר.",
+    "cultural": "שם נשי בשימוש בסוריה ובמדינות ערב נוספות.",
+    "category": "general",
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: نجوى — ערך לשוני",
+        "url": "https://en.wiktionary.org/wiki/%D9%86%D8%AC%D9%88%D9%89"
+      }
+    ]
   }
 ]
