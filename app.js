@@ -3,7 +3,8 @@ const cards=document.querySelector("#cards"),q=document.querySelector("#q"),coun
 const aliases={
   muhammad:["מוחמד","מחמד","محمد","mohammed","mohammad","muhammed"],
   sulayman:["סולימאן","סלימאן","suleiman","sulayman","soliman"],
-  tawfiq:["תופיק","תאופיק","tawfiq","toufik","tawfik"]
+  tawfiq:["תופיק","תאופיק","tawfiq","toufik","tawfik"],
+  lubna:["לובנא","לובנה","לבנא","lubna","lubnah"]
 };
 function norm(v=""){return String(v).normalize("NFKD").replace(/[\u0591-\u05C7\u064B-\u065F\u0670\u06D6-\u06ED]/g,"").replace(/[أإآٱ]/g,"ا").replace(/ى/g,"ي").replace(/ة/g,"ه").replace(/[\u0027\u2018\u2019\u02BC\u05F3\u0060\u00B4]/g,"").toLowerCase().trim()}
 function escapeHtml(v){return String(v??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
