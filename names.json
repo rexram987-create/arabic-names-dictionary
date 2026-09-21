@@ -9,7 +9,17 @@
     "linguistic": "קשור לשאיפה, לבקשה ולהשגת מטרה.",
     "cultural": "המשמעות המקובלת יכולה להיות גם להגיע למטרה.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ערב־דיקט: מרام — מטרה ושאיפה",
+        "url": "https://www.arabdict.com/ar/عربي-عربي/مرام"
+      },
+      {
+        "title": "ויקימילון: رام — לשאוף ולבקש",
+        "url": "https://en.wiktionary.org/wiki/رام"
+      }
+    ]
   },
   {
     "id": "tawfiq",
@@ -55,7 +65,13 @@
     "linguistic": "מקושר לפועל رنا — להביט ממושכות ובשקט.",
     "cultural": "יש דוברי ערבית המייחסים לשם משמעות של דבר נשגב או מעורר התפעלות.",
     "category": "general",
-    "certainty": "מספר פירושים או מסורות"
+    "certainty": "מספר פירושים או מסורות",
+    "sources": [
+      {
+        "title": "ויקימילון: رنا — להביט ממושכות",
+        "url": "https://en.wiktionary.org/wiki/رنا"
+      }
+    ]
   },
   {
     "id": "nihaya",
@@ -67,7 +83,13 @@
     "linguistic": "מן השורש ن هـ ي, בהוראת הגעה לקצה או לסוף.",
     "cultural": "משמעות ישירה של המילה הערבית 'סוף'.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: نهاية — סוף",
+        "url": "https://en.wiktionary.org/wiki/نهاية"
+      }
+    ]
   },
   {
     "id": "hatim",
@@ -79,7 +101,17 @@
     "linguistic": "מן השורש ح ت م — לקבוע, להכריע.",
     "cultural": "מזוהה בתרבות הערבית עם נדיבות, נתינה ועזרה, בין היתר בזכות חאתם א־טאאִי.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון בערבית: حتم — הכרעה ופסיקה",
+        "url": "https://ar.wiktionary.org/wiki/حتم"
+      },
+      {
+        "title": "ויקימילון: أكرم من حاتم — מסורת הנדיבות",
+        "url": "https://en.wiktionary.org/wiki/أكرم_من_حاتم"
+      }
+    ]
   },
   {
     "id": "amal-ayn",
@@ -145,7 +177,13 @@
     "linguistic": "צורת ההפלגה מן השורש ح م د — שבח.",
     "cultural": "שם נפוץ מאוד בעולם הערבי והמוסלמי.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: Ahmad — ראוי ביותר לשבח",
+        "url": "https://en.wiktionary.org/wiki/Ahmad"
+      }
+    ]
   },
   {
     "id": "ali",
@@ -157,7 +195,13 @@
     "linguistic": "מן השורש ع ل و, הקשור לגובה ולרוממות.",
     "cultural": "שם בעל חשיבות היסטורית ודתית רבה, המזוהה עם עלי בן אבי טאלב.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: علي — גבוה ונעלה",
+        "url": "https://en.wiktionary.org/wiki/علي"
+      }
+    ]
   },
   {
     "id": "umar",
@@ -169,7 +213,13 @@
     "linguistic": "קשור לשורש ع م ر, חיים, יישוב ואריכות ימים.",
     "cultural": "שם ערבי ותיק ונפוץ; מזוהה גם עם הח'ליף עומר בן אל־ח'טאב.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: عمر — חיים ואריכות ימים",
+        "url": "https://en.wiktionary.org/wiki/عمر"
+      }
+    ]
   },
   {
     "id": "yusuf",
@@ -181,7 +231,13 @@
     "linguistic": "שם ממקור שמי קדום, המקביל ליוסף בעברית.",
     "cultural": "שם נפוץ בקרב ערבים מוסלמים ונוצרים; יוסף הוא נביא בקוראן.",
     "category": "biblical",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: يوسف — יוסף בעברית",
+        "url": "https://en.wiktionary.org/wiki/يوسف"
+      }
+    ]
   },
   {
     "id": "karim",
@@ -193,7 +249,13 @@
     "linguistic": "מן השורש ك ر م. במילוני האקדמיה كريم מתואר כרב־טוב, נדיב ונותן.",
     "cultural": "נדיבות והכנסת אורחים הן אסוציאציות חזקות של השם.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: كريم — נדיב ונעלה",
+        "url": "https://en.wiktionary.org/wiki/كريم"
+      }
+    ]
   },
   {
     "id": "amir",
@@ -205,7 +267,13 @@
     "linguistic": "מן הפועל أَمَرَ — לצוות; אמיר הוא מי שמופקד על אחרים.",
     "cultural": "שימש לאורך ההיסטוריה גם כתואר שלטוני.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: أمير — נסיך ומפקד",
+        "url": "https://en.wiktionary.org/wiki/أمير"
+      }
+    ]
   },
   {
     "id": "faris",
