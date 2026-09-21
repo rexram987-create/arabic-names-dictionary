@@ -38,7 +38,7 @@ q.addEventListener("input",render);q.addEventListener("search",render);
 document.querySelectorAll(".filter").forEach(b=>b.onclick=()=>{const a=document.querySelector(".filter.active");if(a)a.classList.remove("active");b.classList.add("active");filter=b.dataset.filter;render()});
 if("serviceWorker"in navigator)addEventListener("load",()=>navigator.serviceWorker.register("/sw.js").catch(console.warn));
 let dp;const ib=document.querySelector("#install");addEventListener("beforeinstallprompt",e=>{e.preventDefault();dp=e;ib.hidden=false});ib.onclick=async()=>{if(dp){dp.prompt();await dp.userChoice;dp=null;ib.hidden=true}};addEventListener("appinstalled",()=>ib.hidden=true);
-const abdallahRecording=new Audio("/audio/abdallah.mp3");
+const abdallahRecording=new Audio("/audio/Generated%20Audio%20September%2021%2C%202026%20-%201_41PM.wav");
 abdallahRecording.preload="auto";
 function speakArabic(text){
  const isAbdallah=/^عَبْدُ الله$|^عبد الله$/.test(text.trim());
