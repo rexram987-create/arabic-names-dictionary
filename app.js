@@ -41,9 +41,12 @@ let dp;const ib=document.querySelector("#install");addEventListener("beforeinsta
 function speakArabic(text){
  if(!("speechSynthesis" in window)){count.textContent="המכשיר אינו תומך בהקראה.";return}
  speechSynthesis.cancel();
- const u=new SpeechSynthesisUtterance(text);u.lang="ar";
+ const isAbdallah=/^عَبْدُ الله$|^عبد الله$/.test(text.trim());
+ // TTS-only vowel marks clarify the final د and the linking vowel; keep the displayed name unchanged.
+ const spoken=isAbdallah?"عَبْدُ اللّٰهِ":text;
+ const u=new SpeechSynthesisUtterance(spoken);u.lang="ar";
  const ar=speechSynthesis.getVoices().find(v=>String(v.lang).toLowerCase().startsWith("ar"));
- if(ar)u.voice=ar;u.rate=.82;
+ if(ar)u.voice=ar;u.rate=isAbdallah?.68:.82;
  speechSynthesis.speak(u);
 }
 cards.addEventListener("click",e=>{const b=e.target.closest(".speak");if(b)speakArabic(b.dataset.ar)});
