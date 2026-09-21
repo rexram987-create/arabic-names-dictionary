@@ -285,7 +285,13 @@
     "linguistic": "فارس הוא רוכב סוסים מיומן ובהרחבה לוחם או אביר.",
     "cultural": "השם מתקשר לאומץ, אבירות ומיומנות ברכיבה.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: فارس — פרש ואביר",
+        "url": "https://en.wiktionary.org/wiki/فارس"
+      }
+    ]
   },
   {
     "id": "rami",
@@ -297,7 +303,13 @@
     "linguistic": "מן השורש ر م ي — לזרוק או לירות.",
     "cultural": "כשם פרטי הוא עשוי לעורר אסוציאציה של דיוק וקליעה למטרה.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: رامي — השם ושורש הירייה",
+        "url": "https://en.wiktionary.org/wiki/رامي"
+      }
+    ]
   },
   {
     "id": "samir",
@@ -309,7 +321,13 @@
     "linguistic": "קשור ל־سمر — שיחה לילית נעימה.",
     "cultural": "השם מתקשר לחברותיות ולשיחה נעימה.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: سمير — בן שיח בלילה",
+        "url": "https://en.wiktionary.org/wiki/سمير"
+      }
+    ]
   },
   {
     "id": "layla",
@@ -321,7 +339,13 @@
     "linguistic": "קשור למילה ليل — לילה; לצורה ليلى היסטוריה לשונית ושירית עתיקה.",
     "cultural": "מפורסם במיוחד בסיפור האהבה הערבי ליילא ומג'נון.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: ليلى — השם ומקורו",
+        "url": "https://en.wiktionary.org/wiki/ليلى"
+      }
+    ]
   },
   {
     "id": "nur",
@@ -333,7 +357,13 @@
     "linguistic": "نور היא המילה הערבית לאור.",
     "cultural": "שם בעל משמעות חיובית ורוחנית; משמש גם לנשים וגם לגברים.",
     "category": "general",
-    "certainty": "מספר פירושים או מסורות"
+    "certainty": "מספר פירושים או מסורות",
+    "sources": [
+      {
+        "title": "ויקימילון: نور — אור",
+        "url": "https://en.wiktionary.org/wiki/نور"
+      }
+    ]
   },
   {
     "id": "huda",
@@ -345,7 +375,13 @@
     "linguistic": "מן השורש ه د ي — להדריך ולהנחות.",
     "cultural": "למושג הֻדא משמעות דתית של הדרכה אל הדרך הנכונה.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: هدى — הדרכה והכוונה",
+        "url": "https://en.wiktionary.org/wiki/هدى"
+      }
+    ]
   },
   {
     "id": "yasmin",
@@ -357,7 +393,13 @@
     "linguistic": "שם הצמח יסמין; המילה הגיעה לערבית במסורת לשונית עתיקה.",
     "cultural": "הפרח מתקשר ליופי ולריח נעים.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: ياسمين — פרח היסמין",
+        "url": "https://en.wiktionary.org/wiki/ياسمين"
+      }
+    ]
   },
   {
     "id": "dunya",
@@ -369,7 +411,13 @@
     "linguistic": "دنيا מציינת את העולם הקרוב/הארצי, בניגוד לעולם הבא.",
     "cultural": "מושג מרכזי בשפה ובתרבות האסלאמית לציון חיי העולם הזה.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: دنيا — העולם הזה",
+        "url": "https://en.wiktionary.org/wiki/دنيا"
+      }
+    ]
   },
   {
     "id": "sama",
@@ -381,7 +429,13 @@
     "linguistic": "سماء היא המילה הערבית לשמיים או לרקיע.",
     "cultural": "כשם פרטי הוא מתקשר למרחב, גובה ושמיים.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: سماء — שמיים",
+        "url": "https://en.wiktionary.org/wiki/سماء"
+      }
+    ]
   },
   {
     "id": "wafa",
@@ -393,7 +447,13 @@
     "linguistic": "מן השורש و ف ي. وَفَى פירושו השלים, קיים נדר או עמד בהתחייבות.",
     "cultural": "השם מבטא נאמנות ומסירות ביחסים בין אנשים.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: وفاء — נאמנות וקיום הבטחה",
+        "url": "https://en.wiktionary.org/wiki/وفاء"
+      }
+    ]
   },
   {
     "id": "sahar",
