@@ -1639,7 +1639,13 @@
     "linguistic": "השם ضُحَى מציין את זמן התרוממות היום והשמש; זהו גם שמה של סורה בקוראן.",
     "cultural": "א־דוחא הוא גם שמה של סורה בקוראן.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: ضحا — שעות הבוקר",
+        "url": "https://en.wiktionary.org/wiki/ضحا"
+      }
+    ]
   },
   {
     "id": "rawan",
@@ -1663,7 +1669,13 @@
     "linguistic": "קשור ל־رزانة — כובד ראש, איפוק ושיקול דעת.",
     "cultural": "שם המבטא איפוק וכבוד.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "מילון المعاني: رزان — שקילות וכובד ראש",
+        "url": "https://www.almaany.com/ar/dict/ar-ar/رزان/"
+      }
+    ]
   },
   {
     "id": "rasha",
@@ -1675,7 +1687,13 @@
     "linguistic": "רَشَا הוא עופר/צבי צעיר בשימוש הערבי הקלאסי.",
     "cultural": "שם נשי בעל דימוי עדין מן הטבע.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "מילון المعاني: رشا — עופר צעיר",
+        "url": "https://www.almaany.com/ar/dict/ar-ar/رشا/"
+      }
+    ]
   },
   {
     "id": "suha",
@@ -1687,7 +1705,13 @@
     "linguistic": "السها הוא שם מסורתי לכוכב חלש־אור בקבוצת הדובה הגדולה.",
     "cultural": "שם נשי פיוטי הקשור לשמי הלילה.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "מילון المعاني: السها — כוכב חלש־אור",
+        "url": "https://www.almaany.com/ar/dict/ar-ar/السها/"
+      }
+    ]
   },
   {
     "id": "taghrid",
@@ -1699,7 +1723,13 @@
     "linguistic": "מן השורש غ ر د — לצייץ או לשיר, במיוחד על ציפורים.",
     "cultural": "שם נשי בעל הקשר מוזיקלי וטבעי.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: تغريد — שירת ציפורים",
+        "url": "https://en.wiktionary.org/wiki/تغريد"
+      }
+    ]
   },
   {
     "id": "warda",
@@ -1711,7 +1741,13 @@
     "linguistic": "وردة היא פרח ורד יחיד.",
     "cultural": "שם נשי מוכר; מזוהה גם עם הזמרת האלג'יראית־לבנונית ורדה.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: وردة — ורד",
+        "url": "https://en.wiktionary.org/wiki/وردة"
+      }
+    ]
   },
   {
     "id": "zaynab",
@@ -1735,7 +1771,13 @@
     "linguistic": "מן השורש ف ط م — לגמול ילד מיניקה, להפסיק.",
     "cultural": "מזוהה במיוחד עם פאטמה בת מוחמד, דמות מרכזית באסלאם.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "מילון المعاني: فطم — גמילה מיניקה",
+        "url": "https://www.almaany.com/ar/dict/ar-ar/فطم/"
+      }
+    ]
   },
   {
     "id": "khadija",
@@ -1747,7 +1789,13 @@
     "linguistic": "מן השורש خ د ج — להיוולד טרם הזמן/להיות חסר בהשלמה.",
     "cultural": "מזוהה במיוחד עם חדיג'ה בת ח'וויילד, אשתו הראשונה של מוחמד.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "מילון المعاني: خديج — לידה מוקדמת",
+        "url": "https://www.almaany.com/ar/dict/ar-ar/خديج/"
+      }
+    ]
   },
   {
     "id": "asma",
@@ -1759,7 +1807,13 @@
     "linguistic": "האקדמיה מגדירה أَسماء כרבים של اِسم. כשם פרטי, אַסְמַאא הוא שם נשי ערבי עתיק, ולכן יש להפריד בין הניתוח המילוני לבין האטימולוגיה ההיסטורית של השם.",
     "cultural": "מזוהה בין היתר עם אסמאא בת אבי בכר.",
     "category": "general",
-    "certainty": "מספר פירושים או מסורות"
+    "certainty": "מספר פירושים או מסורות",
+    "sources": [
+      {
+        "title": "ויקימילון: أسماء — שם פרטי וריבוי של 'שם'",
+        "url": "https://en.wiktionary.org/wiki/أسماء"
+      }
+    ]
   },
   {
     "id": "lubna",
@@ -1771,6 +1825,12 @@
     "linguistic": "لبنى הוא שמו המסורתי של עץ הסטורקס/לבנה בהקשרים ערביים.",
     "cultural": "שם נשי עתיק המופיע גם בשירה ובספרות הערבית.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "מילון المعاني: لبنى — שם עץ ריחני",
+        "url": "https://www.almaany.com/ar/dict/ar-ar/لبنى/"
+      }
+    ]
   }
 ]
