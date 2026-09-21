@@ -38,21 +38,23 @@ q.addEventListener("input",render);q.addEventListener("search",render);
 document.querySelectorAll(".filter").forEach(b=>b.onclick=()=>{const a=document.querySelector(".filter.active");if(a)a.classList.remove("active");b.classList.add("active");filter=b.dataset.filter;render()});
 if("serviceWorker"in navigator)addEventListener("load",()=>navigator.serviceWorker.register("/sw.js").catch(console.warn));
 let dp;const ib=document.querySelector("#install");addEventListener("beforeinstallprompt",e=>{e.preventDefault();dp=e;ib.hidden=false});ib.onclick=async()=>{if(dp){dp.prompt();await dp.userChoice;dp=null;ib.hidden=true}};addEventListener("appinstalled",()=>ib.hidden=true);
+const abdallahRecording=new Audio("/audio/abdallah.mp3");
+abdallahRecording.preload="auto";
 function speakArabic(text){
- if(!("speechSynthesis" in window)){count.textContent="המכשיר אינו תומך בהקראה.";return}
- speechSynthesis.cancel();
- const ar=speechSynthesis.getVoices().find(v=>String(v.lang).toLowerCase().startsWith("ar"));
  const isAbdallah=/^عَبْدُ الله$|^عبد الله$/.test(text.trim());
- // The phone's TTS swallowed د in the connected phrase. Speak عبد as a separate
- // word first so its final consonant is audible, then pronounce الله.
- // This affects audio only: the displayed Arabic name remains unchanged.
- const parts=isAbdallah?["عَبْدْ","اللّٰه"]: [text];
- for(const part of parts){
-  const u=new SpeechSynthesisUtterance(part);
-  u.lang="ar";
-  if(ar)u.voice=ar;
-  u.rate=isAbdallah?.72:.82;
-  speechSynthesis.speak(u);
+ if("speechSynthesis" in window)speechSynthesis.cancel();
+ abdallahRecording.pause();
+ abdallahRecording.currentTime=0;
+ if(isAbdallah){
+  abdallahRecording.play().catch(()=>{count.textContent="לא ניתן להשמיע את ההקלטה כרגע. נסה שוב.";});
+  return;
  }
+ if(!("speechSynthesis" in window)){count.textContent="המכשיר אינו תומך בהקראה.";return}
+ const u=new SpeechSynthesisUtterance(text);
+ u.lang="ar";
+ const ar=speechSynthesis.getVoices().find(v=>String(v.lang).toLowerCase().startsWith("ar"));
+ if(ar)u.voice=ar;
+ u.rate=.82;
+ speechSynthesis.speak(u);
 }
 cards.addEventListener("click",e=>{const b=e.target.closest(".speak");if(b)speakArabic(b.dataset.ar)});
