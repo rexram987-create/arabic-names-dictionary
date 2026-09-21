@@ -1255,7 +1255,13 @@
     "linguistic": "مها הוא ריבוי של مهاة, האוריקס הערבי.",
     "cultural": "בשירה הערבית עיני האוריקס הן דימוי מסורתי ליופי.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "מילון المعاني: مها — משמעות המילה בערבית",
+        "url": "https://www.almaany.com/ar/dict/ar-ar/مها/"
+      }
+    ]
   },
   {
     "id": "najla",
@@ -1267,7 +1273,13 @@
     "linguistic": "מן התואר نجلاء, המתאר בין היתר עיניים רחבות.",
     "cultural": "שם נשי בעל אסוציאציה שירית של יופי.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "מילון المعاني: نجلاء — משמעות השם והתואר",
+        "url": "https://www.almaany.com/ar/dict/ar-ar/نجلاء/"
+      }
+    ]
   },
   {
     "id": "salma",
@@ -1279,7 +1291,13 @@
     "linguistic": "מן משפחת השורש س ل م.",
     "cultural": "שם נשי ערבי עתיק ונפוץ.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: سلمى — שם נשי מן השורש س ل م",
+        "url": "https://en.wiktionary.org/wiki/سلمى"
+      }
+    ]
   },
   {
     "id": "safa",
@@ -1291,7 +1309,13 @@
     "linguistic": "מן השורש ص ف و — להיות צלול וטהור.",
     "cultural": "מבטא טוהר ובהירות.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: صفاء — צלילות וטוהר",
+        "url": "https://en.wiktionary.org/wiki/صفاء"
+      }
+    ]
   },
   {
     "id": "sabah",
@@ -1303,7 +1327,13 @@
     "linguistic": "صباح הוא הבוקר, היפוכו של הערב.",
     "cultural": "שם המזוהה עם התחלה חדשה ואור הבוקר.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: صباح — בוקר",
+        "url": "https://en.wiktionary.org/wiki/صباح"
+      }
+    ]
   },
   {
     "id": "ibtisam",
@@ -1315,7 +1345,13 @@
     "linguistic": "מן השורש ب س م — לחייך.",
     "cultural": "שם נשי בעל משמעות ישירה ושמחה.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: ابتسام — חיוך",
+        "url": "https://en.wiktionary.org/wiki/ابتسام"
+      }
+    ]
   },
   {
     "id": "basma",
@@ -1327,7 +1363,13 @@
     "linguistic": "מן השורש ب س م — חיוך.",
     "cultural": "קרוב במשמעות לאבתסאם.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: بسمة — חיוך",
+        "url": "https://en.wiktionary.org/wiki/بسمة"
+      }
+    ]
   },
   {
     "id": "farah",
@@ -1339,7 +1381,13 @@
     "linguistic": "מן השורש ف ر ح — לשמוח.",
     "cultural": "משמש כשם פרטי נפוץ ומבטא שמחה.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: فرح — שמחה",
+        "url": "https://en.wiktionary.org/wiki/فرح"
+      }
+    ]
   },
   {
     "id": "nada",
@@ -1351,7 +1399,13 @@
     "linguistic": "ندى פירושו טל, ובהרחבה ספרותית עשוי לציין נדיבות.",
     "cultural": "שם נשי פיוטי הקשור לרעננות ולטל הבוקר.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: ندى — טל ונדיבות",
+        "url": "https://en.wiktionary.org/wiki/ندى"
+      }
+    ]
   },
   {
     "id": "ghada",
@@ -1363,7 +1417,13 @@
     "linguistic": "غادة מתארת עדינות ורכות.",
     "cultural": "שם נשי ספרותי הקשור לחן ועדינות.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "מילון المعاني: غادة — משמעות המילה בערבית",
+        "url": "https://www.almaany.com/ar/dict/ar-ar/غادة/"
+      }
+    ]
   },
   {
     "id": "dalia",
