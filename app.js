@@ -38,15 +38,19 @@ q.addEventListener("input",render);q.addEventListener("search",render);
 document.querySelectorAll(".filter").forEach(b=>b.onclick=()=>{const a=document.querySelector(".filter.active");if(a)a.classList.remove("active");b.classList.add("active");filter=b.dataset.filter;render()});
 if("serviceWorker"in navigator)addEventListener("load",()=>navigator.serviceWorker.register("/sw.js").catch(console.warn));
 let dp;const ib=document.querySelector("#install");addEventListener("beforeinstallprompt",e=>{e.preventDefault();dp=e;ib.hidden=false});ib.onclick=async()=>{if(dp){dp.prompt();await dp.userChoice;dp=null;ib.hidden=true}};addEventListener("appinstalled",()=>ib.hidden=true);
-const abdallahRecording=new Audio("/audio/Generated%20Audio%20September%2021%2C%202026%20-%201_41PM.wav");
-abdallahRecording.preload="auto";
+const nameRecordings={
+ abdallah:new Audio("/audio/Generated%20Audio%20September%2021%2C%202026%20-%201_41PM.wav"),
+ abd:new Audio("/audio/Generated%20Audio%20September%2021%2C%202026%20-%202_54PM.wav")
+};
+Object.values(nameRecordings).forEach(audio=>{audio.preload="auto"});
 function speakArabic(text){
- const isAbdallah=/^عَبْدُ الله$|^عبد الله$/.test(text.trim());
+ const normalized=text.trim();
+ const recording=/^عَبْدُ الله$|^عبد الله$/.test(normalized)?nameRecordings.abdallah:
+  /^عَبْد$|^عَبْدْ$|^عبد$/.test(normalized)?nameRecordings.abd:null;
  if("speechSynthesis" in window)speechSynthesis.cancel();
- abdallahRecording.pause();
- abdallahRecording.currentTime=0;
- if(isAbdallah){
-  abdallahRecording.play().catch(()=>{count.textContent="לא ניתן להשמיע את ההקלטה כרגע. נסה שוב.";});
+ Object.values(nameRecordings).forEach(audio=>{audio.pause();audio.currentTime=0});
+ if(recording){
+  recording.play().catch(()=>{count.textContent="לא ניתן להשמיע את ההקלטה כרגע. נסה שוב.";});
   return;
  }
  if(!("speechSynthesis" in window)){count.textContent="המכשיר אינו תומך בהקראה.";return}
