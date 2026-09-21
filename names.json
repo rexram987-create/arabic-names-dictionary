@@ -1067,7 +1067,13 @@
     "linguistic": "מן השורש ب ش ر — בשורה טובה ושמחה.",
     "cultural": "מתקשר להבאת חדשות משמחות.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: بشير — מבשר בשורה טובה",
+        "url": "https://en.wiktionary.org/wiki/بشير"
+      }
+    ]
   },
   {
     "id": "munir",
@@ -1079,7 +1085,13 @@
     "linguistic": "מן השורש ن و ر — אור והארה.",
     "cultural": "שם הקשור לאור ובהירות.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: منير — מאיר וזוהר",
+        "url": "https://en.wiktionary.org/wiki/منير"
+      }
+    ]
   },
   {
     "id": "hilal",
@@ -1091,7 +1103,13 @@
     "linguistic": "هلال הוא הסהר הנראה בתחילת החודש הירחי.",
     "cultural": "לסהר חשיבות בלוח השנה המוסלמי.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: هلال — סהר",
+        "url": "https://en.wiktionary.org/wiki/هلال"
+      }
+    ]
   },
   {
     "id": "najib",
@@ -1103,7 +1121,13 @@
     "linguistic": "نجيب מתאר אדם בעל ייחוס/מידות טובות ובשימוש מודרני גם מוכשר ונבון.",
     "cultural": "שם גברי ותיק.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: نجيب — אציל ונבון",
+        "url": "https://en.wiktionary.org/wiki/نجيب"
+      }
+    ]
   },
   {
     "id": "latif",
@@ -1115,7 +1139,13 @@
     "linguistic": "מן השורש ل ط ف — עדינות ורוך. لطيف משמש גם כאחד משמות האל באסלאם.",
     "cultural": "אל־לטיף הוא גם אחד משמות האל באסלאם.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: لطيف — עדין ואדיב",
+        "url": "https://en.wiktionary.org/wiki/لطيف"
+      }
+    ]
   },
   {
     "id": "nasir",
@@ -1127,7 +1157,13 @@
     "linguistic": "מן השורש ن ص ر. הפועל نَصَرَ פירושו לסייע, לתמוך ולהציל; ناصر הוא הפועל/המסייע.",
     "cultural": "קרוב במשמעות ובשורש למנצור.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: ناصر — עוזר ותומך",
+        "url": "https://en.wiktionary.org/wiki/ناصر"
+      }
+    ]
   },
   {
     "id": "malik",
@@ -1139,7 +1175,13 @@
     "linguistic": "מן השורש م ل ك — בעלות, שלטון ומלוכה.",
     "cultural": "לא להתבלבל עם مَلِك (מַלִכּ) — מלך.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: مالك — בעלים",
+        "url": "https://en.wiktionary.org/wiki/مالك"
+      }
+    ]
   },
   {
     "id": "walid",
@@ -1151,7 +1193,13 @@
     "linguistic": "מן השורש و ل د — לידה וילדים.",
     "cultural": "שם גברי ערבי ותיק.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: وليد — יילוד",
+        "url": "https://en.wiktionary.org/wiki/وليد"
+      }
+    ]
   },
   {
     "id": "lina",
@@ -1163,7 +1211,17 @@
     "linguistic": "בערבית ניתן לקשרו ל־لين — רוך ועדינות, ול־لِينة — סוג של דקל. עם זאת Lina קיים גם בשפות אחרות ולכן אין לייחס לכל נושאות השם מקור ערבי יחיד.",
     "cultural": "שם בינלאומי הנפוץ גם בחברה הערבית.",
     "category": "general",
-    "certainty": "מקור/אטימולוגיה לא ודאיים"
+    "certainty": "מקור/אטימולוגיה לא ודאיים",
+    "sources": [
+      {
+        "title": "ויקימילון: لين — רוך ועדינות (קשר לשוני אפשרי)",
+        "url": "https://en.wiktionary.org/wiki/لين"
+      },
+      {
+        "title": "ויקימילון: Lina — שם הקיים גם בשפות אחרות",
+        "url": "https://en.wiktionary.org/wiki/Lina"
+      }
+    ]
   },
   {
     "id": "lamis",
@@ -1175,7 +1233,17 @@
     "linguistic": "קשור לשורש ل م س — מגע.",
     "cultural": "שם נשי המתאר רכות ועדינות.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "Arabdict: لميس — אישה רכה למגע",
+        "url": "https://www.arabdict.com/ar/عربي-عربي/لميس"
+      },
+      {
+        "title": "Lane's Lexicon: لميس — רכה למגע",
+        "url": "https://www.laneslexicon.com/word/لميس"
+      }
+    ]
   },
   {
     "id": "maha",
