@@ -887,7 +887,13 @@
     "linguistic": "מן השורש خ ل د — להישאר, להתקיים לאורך זמן.",
     "cultural": "שם גברי נפוץ בעולם הערבי.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: خالد — נצחי",
+        "url": "https://en.wiktionary.org/wiki/خالد"
+      }
+    ]
   },
   {
     "id": "tariq",
@@ -899,7 +905,13 @@
     "linguistic": "מן השורש ط ر ق — לדפוק/להכות; طارق הוא מי שמגיע בלילה ודופק בדלת.",
     "cultural": "המילה מופיעה גם בשם סורה בקוראן; השם מזוהה היסטורית עם טארק בן זיאד.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: طارق — הבא בלילה",
+        "url": "https://en.wiktionary.org/wiki/طارق"
+      }
+    ]
   },
   {
     "id": "ziad",
@@ -911,7 +923,13 @@
     "linguistic": "מן השורש ز ي د — לגדול, להוסיף.",
     "cultural": "שם שמבטא ריבוי וצמיחה.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: زياد — תוספת וגידול",
+        "url": "https://en.wiktionary.org/wiki/زياد"
+      }
+    ]
   },
   {
     "id": "maher",
@@ -923,7 +941,13 @@
     "linguistic": "מן השורש م ه ر — להיות מיומן או מצטיין.",
     "cultural": "שם המדגיש יכולת ומיומנות.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: ماهر — מיומן",
+        "url": "https://en.wiktionary.org/wiki/ماهر"
+      }
+    ]
   },
   {
     "id": "nabil",
@@ -935,7 +959,13 @@
     "linguistic": "نَبِيل הוא תואר לאדם אצילי ומכובד.",
     "cultural": "מתקשר לכבוד, אצילות ומעמד מוסרי.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: نبيل — אציל",
+        "url": "https://en.wiktionary.org/wiki/نبيل"
+      }
+    ]
   },
   {
     "id": "jamal",
@@ -947,7 +977,13 @@
     "linguistic": "מן השורש ج م ل — יופי ונוי.",
     "cultural": "שם גברי נפוץ שמשמעותו הישירה היא יופי.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: جمال — יופי",
+        "url": "https://en.wiktionary.org/wiki/جمال"
+      }
+    ]
   },
   {
     "id": "kamil",
@@ -959,7 +995,13 @@
     "linguistic": "מן השורש ك م ل — שלמות והשלמה.",
     "cultural": "מבטא שלמות ובשלות.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: كامل — שלם ומלא",
+        "url": "https://en.wiktionary.org/wiki/كامل"
+      }
+    ]
   },
   {
     "id": "salim",
@@ -971,7 +1013,13 @@
     "linguistic": "מן השורש س ل م — שלום, שלמות ובטיחות.",
     "cultural": "מאותה משפחת שורש של سلام — שלום.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: سالم — שלם ובטוח",
+        "url": "https://en.wiktionary.org/wiki/سالم"
+      }
+    ]
   },
   {
     "id": "saeed",
@@ -983,7 +1031,13 @@
     "linguistic": "מן השורש س ع د — אושר ומזל טוב.",
     "cultural": "שם בעל משמעות חיובית של שמחה ואושר.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: سعيد — שמח ומאושר",
+        "url": "https://en.wiktionary.org/wiki/سعيد"
+      }
+    ]
   },
   {
     "id": "fadi",
@@ -995,7 +1049,13 @@
     "linguistic": "מן השורש ف د ي — לפדות או להציל באמצעות כופר/הקרבה.",
     "cultural": "נפוץ במיוחד גם בקרב ערבים נוצרים.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: فادي — פודה ומציל",
+        "url": "https://en.wiktionary.org/wiki/فادي"
+      }
+    ]
   },
   {
     "id": "bashir",
