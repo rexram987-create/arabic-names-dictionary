@@ -2324,5 +2324,201 @@
         "url": "https://www.almaany.com/ar/dict/ar-ar/%D9%84%D9%88%D8%B1/"
       }
     ]
+  },
+  {
+    "id": "shahm",
+    "he": "שַׁהְם",
+    "ar": "شَهْم",
+    "latin": "Shahm",
+    "gender": "male",
+    "meaning": "אציל נפש, אמיץ ובעל תושייה.",
+    "linguistic": "שם תואר ערבי מן השורש ش־ه־م, הקשור לאומץ ולתבונה.",
+    "cultural": "נרשם בקרב 1,987 בנים בירדן בשנת 2024; אינו שם ייחודי לירדן.",
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "Arabdict: شهم — משמעות מילונית",
+        "url": "https://www.arabdict.com/en/عربي-عربي/شهم"
+      },
+      {
+        "title": "ירדן: שנתון סטטיסטי 2024, טבלת שמות ילודים, עמ׳ 18",
+        "url": "https://dosweb.dos.gov.jo/databank/yearbook/YearBook_2024.pdf"
+      }
+    ],
+    "category": "general"
+  },
+  {
+    "id": "ayla",
+    "he": "אַיְלָא",
+    "ar": "آيلا",
+    "latin": "Ayla",
+    "gender": "female",
+    "meaning": "שם בעל מסורות אטימולוגיות שונות; בטורקית מקושר להילה סביב הירח.",
+    "linguistic": "שם בינלאומי שנכתב בערבית آيلا; אין לקבוע לו משמעות ערבית יחידה.",
+    "cultural": "נרשם בקרב 1,547 בנות בירדן בשנת 2024.",
+    "certainty": "מקור/אטימולוגיה משתנים לפי מסורת",
+    "sources": [
+      {
+        "title": "ויקימילון: Ayla — שימוש ומקור השם",
+        "url": "https://en.wiktionary.org/wiki/Ayla"
+      },
+      {
+        "title": "ירדן: שנתון סטטיסטי 2024, טבלת שמות ילודים, עמ׳ 18",
+        "url": "https://dosweb.dos.gov.jo/databank/yearbook/YearBook_2024.pdf"
+      }
+    ],
+    "category": "general"
+  },
+  {
+    "id": "mahmoud",
+    "he": "מַחְמוּד",
+    "ar": "مَحْمُود",
+    "latin": "Mahmoud",
+    "gender": "male",
+    "meaning": "ראוי לשבח; מהולל.",
+    "linguistic": "צורת בינוני סביל של הפועל حَمِدَ — שיבח.",
+    "cultural": "שם גברי מוכר במצרים ובמדינות ערב נוספות; לא מוצג כאן דירוג לידות מצרי מאומת.",
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: محمود — מקור לשוני",
+        "url": "https://en.wiktionary.org/wiki/%D9%85%D8%AD%D9%85%D9%88%D8%AF"
+      }
+    ],
+    "category": "general"
+  },
+  {
+    "id": "mustafa",
+    "he": "מֻסְטַפַא",
+    "ar": "مُصْطَفَى",
+    "latin": "Mustafa",
+    "gender": "male",
+    "meaning": "הנבחר.",
+    "linguistic": "מן הפועל اصطفى — בחר.",
+    "cultural": "שם נפוץ בשימוש ערבי ומוסלמי, ובכלל זה במצרים; אחד מכינויי הנביא מוחמד במסורת האסלאמית.",
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: مصطفى — מקור לשוני",
+        "url": "https://en.wiktionary.org/wiki/%D9%85%D8%B5%D8%B7%D9%81%D9%89"
+      }
+    ],
+    "category": "general"
+  },
+  {
+    "id": "sara",
+    "he": "סַארָה",
+    "ar": "سَارَة",
+    "latin": "Sara / Sarah",
+    "gender": "female",
+    "meaning": "שרה; לפי המסורת העברית קשור לגבירה או נסיכה.",
+    "linguistic": "צורה ערבית של השם המקראי שרה; מקורו עברי ולא נגזר מן הפועל הערבי سار.",
+    "cultural": "שם בשימוש במצרים ובמדינות רבות; נרשם גם בקרב 1,079 בנות בירדן בשנת 2024.",
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: سارة — מקור לשוני",
+        "url": "https://en.wiktionary.org/wiki/%D8%B3%D8%A7%D8%B1%D8%A9"
+      },
+      {
+        "title": "ירדן: שנתון סטטיסטי 2024, טבלת שמות ילודים, עמ׳ 18",
+        "url": "https://dosweb.dos.gov.jo/databank/yearbook/YearBook_2024.pdf"
+      }
+    ],
+    "category": "general"
+  },
+  {
+    "id": "joseph",
+    "he": "ג'וֹזֵף",
+    "ar": "جُوزِيف",
+    "latin": "Joseph",
+    "gender": "male",
+    "meaning": "יוסף; במסורת העברית: יוסיף (האל).",
+    "linguistic": "הצורה ג'וזף נובעת מן השם המקראי יוסף דרך שפות אירופיות; אינה גזירה מן הערבית.",
+    "cultural": "צורת שם המשמשת גם בקרב נוצרים בלבנון; אין כאן נתון רשמי על דירוגו במדינה.",
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: Joseph — מקור לשוני",
+        "url": "https://en.wiktionary.org/wiki/Joseph"
+      }
+    ],
+    "category": "general"
+  },
+  {
+    "id": "antoine",
+    "he": "אַנְטוּאָן",
+    "ar": "أَنْطُوان",
+    "latin": "Antoine",
+    "gender": "male",
+    "meaning": "צורה צרפתית של השם אנטוניוס; משמעותו המקורית אינה ודאית.",
+    "linguistic": "מ־Antoine בצרפתית, מן השם הרומי Antonius.",
+    "cultural": "מוכר בין היתר בקרב נוצרים דוברי ערבית בלבנון; אינו שם שמקורו ערבי.",
+    "certainty": "מקור/אטימולוגיה לא ודאיים",
+    "sources": [
+      {
+        "title": "ויקימילון: Antoine — מקור לשוני",
+        "url": "https://en.wiktionary.org/wiki/Antoine"
+      }
+    ],
+    "category": "general"
+  },
+  {
+    "id": "rima",
+    "he": "רִימָא",
+    "ar": "رِيمَا",
+    "latin": "Rima / Reema",
+    "gender": "female",
+    "meaning": "מקושר לרִים — צבי לבן או אנטילופה לבנה בשימוש ספרותי.",
+    "linguistic": "צורת שם קרובה ל־ريم; ייתכנו מקורות אחרים לשם הדומה בשפות אחרות.",
+    "cultural": "שם נשי בשימוש בלבנון ובמדינות ערב נוספות.",
+    "certainty": "בינונית",
+    "sources": [
+      {
+        "title": "ויקימילון: ريم — מקור לשוני",
+        "url": "https://en.wiktionary.org/wiki/%D8%B1%D9%8A%D9%85"
+      },
+      {
+        "title": "ויקימילון: ريما — מקור לשוני",
+        "url": "https://en.wiktionary.org/wiki/%D8%B1%D9%8A%D9%85%D8%A7"
+      }
+    ],
+    "category": "general"
+  },
+  {
+    "id": "saleh",
+    "he": "סַאלֶח",
+    "ar": "صَالِح",
+    "latin": "Saleh / Salih",
+    "gender": "male",
+    "meaning": "ישר, טוב, ראוי או עושה טוב.",
+    "linguistic": "מן השורש ص־ل־ح — תקינות, תיקון וצדק.",
+    "cultural": "שם גברי המשמש בסוריה ובמדינות ערב נוספות; צאלח הוא גם נביא במסורת האסלאם.",
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: صالح — מקור לשוני",
+        "url": "https://en.wiktionary.org/wiki/%D8%B5%D8%A7%D9%84%D8%AD"
+      }
+    ],
+    "category": "general"
+  },
+  {
+    "id": "anwar",
+    "he": "אַנְוַר",
+    "ar": "أَنْوَر",
+    "latin": "Anwar",
+    "gender": "male",
+    "meaning": "מאיר יותר; זוהר יותר.",
+    "linguistic": "צורת היתרון של נַוִר, מן השורש ن־و־ر — אור.",
+    "cultural": "שם גברי בשימוש בסוריה ובמדינות ערב נוספות.",
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: أنور — מקור לשוני",
+        "url": "https://en.wiktionary.org/wiki/%D8%A3%D9%86%D9%88%D8%B1"
+      }
+    ],
+    "category": "general"
   }
 ]
