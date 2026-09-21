@@ -675,7 +675,17 @@
     "linguistic": "שם שמי מקראי המקביל ליצחק בעברית.",
     "cultural": "אסחאק הוא יצחק המקראי ונביא במסורת האסלאמית.",
     "category": "biblical",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: إسحاق — ערך השם בערבית",
+        "url": "https://en.wiktionary.org/wiki/إسحاق"
+      },
+      {
+        "title": "ויקימילון: רשימת שמות פרטיים בערבית",
+        "url": "https://en.wiktionary.org/wiki/Appendix:Arabic_given_names"
+      }
+    ]
   },
   {
     "id": "ismail",
@@ -687,7 +697,17 @@
     "linguistic": "שם שמי עתיק המקביל לישמעאל בעברית.",
     "cultural": "אסמאעיל הוא ישמעאל המקראי ונביא חשוב במסורת האסלאמית.",
     "category": "biblical",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: إسماعيل — ערך השם בערבית",
+        "url": "https://en.wiktionary.org/wiki/إسماعيل"
+      },
+      {
+        "title": "ויקימילון: רשימת שמות פרטיים בערבית",
+        "url": "https://en.wiktionary.org/wiki/Appendix:Arabic_given_names"
+      }
+    ]
   },
   {
     "id": "adam",
@@ -699,7 +719,17 @@
     "linguistic": "שם שמי עתיק המוכר גם בעברית וגם בערבית.",
     "cultural": "אדם נחשב לאדם הראשון וגם לנביא במסורת האסלאמית.",
     "category": "biblical",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: آدم — ערך השם בערבית",
+        "url": "https://en.wiktionary.org/wiki/آدم"
+      },
+      {
+        "title": "ויקימילון: רשימת שמות פרטיים בערבית",
+        "url": "https://en.wiktionary.org/wiki/Appendix:Arabic_given_names"
+      }
+    ]
   },
   {
     "id": "nuh",
@@ -711,7 +741,17 @@
     "linguistic": "שם מקראי עתיק שהתקבע בערבית בצורת نوح.",
     "cultural": "נוח הוא נח המקראי ונביא מרכזי במסורת האסלאמית.",
     "category": "biblical",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: نوح — ערך השם בערבית",
+        "url": "https://en.wiktionary.org/wiki/نوح"
+      },
+      {
+        "title": "ויקימילון: רשימת שמות פרטיים בערבית",
+        "url": "https://en.wiktionary.org/wiki/Appendix:Arabic_given_names"
+      }
+    ]
   },
   {
     "id": "ayyub",
@@ -723,7 +763,17 @@
     "linguistic": "שם מקראי עתיק המקביל לאיוב בעברית.",
     "cultural": "איוב/איובּ הוא סמל לעמידה בניסיון ולסבלנות במסורת הדתית.",
     "category": "biblical",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: أيوب — ערך השם בערבית",
+        "url": "https://en.wiktionary.org/wiki/أيوب"
+      },
+      {
+        "title": "ויקימילון: רשימת שמות פרטיים בערבית",
+        "url": "https://en.wiktionary.org/wiki/Appendix:Arabic_given_names"
+      }
+    ]
   },
   {
     "id": "yunus",
@@ -735,7 +785,17 @@
     "linguistic": "שם מקראי עתיק שהתקבע בערבית בצורת يونس.",
     "cultural": "יונוס הוא יונה הנביא במסורת המקראית והקוראנית.",
     "category": "biblical",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: يونس — ערך השם בערבית",
+        "url": "https://en.wiktionary.org/wiki/يونس"
+      },
+      {
+        "title": "ויקימילון: רשימת שמות פרטיים בערבית",
+        "url": "https://en.wiktionary.org/wiki/Appendix:Arabic_given_names"
+      }
+    ]
   },
   {
     "id": "zakariya",
@@ -747,7 +807,17 @@
     "linguistic": "שם שמי מקראי המקביל לזכריה בעברית.",
     "cultural": "זכריא הוא זכריה, אביו של יוחנן במסורות הנוצרית והאסלאמית.",
     "category": "biblical",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: زكريا — ערך השם בערבית",
+        "url": "https://en.wiktionary.org/wiki/زكريا"
+      },
+      {
+        "title": "ויקימילון: רשימת שמות פרטיים בערבית",
+        "url": "https://en.wiktionary.org/wiki/Appendix:Arabic_given_names"
+      }
+    ]
   },
   {
     "id": "maryam",
@@ -759,7 +829,17 @@
     "linguistic": "שם שמי עתיק המוכר בצורות מרים, Maryam ו־Mary.",
     "cultural": "מרים הוא שם מקראי עתיק; Maryam היא גם אמו של ישוע ודמות מרכזית בקוראן.",
     "category": "biblical",
-    "certainty": "מקור/אטימולוגיה לא ודאיים"
+    "certainty": "מקור/אטימולוגיה לא ודאיים",
+    "sources": [
+      {
+        "title": "ויקימילון: مريم — ערך השם בערבית",
+        "url": "https://en.wiktionary.org/wiki/مريم"
+      },
+      {
+        "title": "ויקימילון: רשימת שמות פרטיים בערבית",
+        "url": "https://en.wiktionary.org/wiki/Appendix:Arabic_given_names"
+      }
+    ]
   },
   {
     "id": "hassan",
@@ -771,7 +851,13 @@
     "linguistic": "מן השורש ح س ن — יופי, טוּב והטבה.",
     "cultural": "שם גברי ותיק ונפוץ מאוד.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: حسن — ערך השם בערבית",
+        "url": "https://en.wiktionary.org/wiki/حسن"
+      }
+    ]
   },
   {
     "id": "husayn",
@@ -783,7 +869,13 @@
     "linguistic": "נגזר מ־حسن בתבנית הקטנה حُسَيْن.",
     "cultural": "מזוהה במיוחד עם חוסיין בן עלי, דמות מרכזית בהיסטוריה האסלאמית.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: حسين — ערך השם בערבית",
+        "url": "https://en.wiktionary.org/wiki/حسين"
+      }
+    ]
   },
   {
     "id": "khalid",
