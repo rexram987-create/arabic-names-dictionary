@@ -16,7 +16,7 @@ function render(){
   return !s||hay.includes(s);
  });
  count.textContent=x.length+" שמות";
- cards.innerHTML=x.map(n=>`<article class="card"><div class="name-row"><div><div class="arabic" lang="ar" dir="rtl">${escapeHtml(n.ar)}</div><div class="hebrew">${escapeHtml(n.he)}</div><div class="latin" dir="ltr">${escapeHtml(n.latin)}</div><button class="speak" type="button" data-ar="${escapeHtml(n.ar)}" aria-label="השמעת ${escapeHtml(n.he)} בערבית">🔊 הגייה</button></div><span class="tag">${n.gender==="both"?"זכר ונקבה":n.gender==="female"?"נקבה":"זכר"}</span></div><h3>משמעות</h3><p>${escapeHtml(n.meaning)}</p><p class="certainty"><strong>רמת ודאות אטימולוגית:</strong> ${escapeHtml(n.certainty||"בבדיקה")}</p><h3>מקור לשוני</h3><p>${escapeHtml(n.linguistic)}</p><h3>משמעות / הקשר תרבותי</h3><p>${escapeHtml(n.cultural)}</p>${Array.isArray(n.sources)&&n.sources.length?'<h3>מקורות</h3><ul>'+n.sources.filter(s=>{try{return ["https:"].includes(new URL(s.url).protocol)}catch{return false}}).map(s=>`<li><a href="${escapeHtml(s.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(s.title||"מקור")}</a></li>`).join("")+'</ul>':'<p class="source-note">טרם צורף מקור חיצוני מאומת לרשומה זו.</p>'}</article>`).join("")||"<p>לא נמצאו שמות מתאימים.</p>";
+ cards.innerHTML=x.map(n=>`<article class="card"><div class="name-row"><div><div class="arabic" lang="ar" dir="rtl">${escapeHtml(n.ar)}</div><div class="hebrew">${escapeHtml(n.he)}</div><div class="latin" dir="ltr">${escapeHtml(n.latin)}</div><button class="speak" type="button" data-ar="${escapeHtml(n.ar)}" data-name-id="${escapeHtml(n.id)}" aria-label="השמעת ${escapeHtml(n.he)} בערבית">🔊 הגייה</button></div><span class="tag">${n.gender==="both"?"זכר ונקבה":n.gender==="female"?"נקבה":"זכר"}</span></div><h3>משמעות</h3><p>${escapeHtml(n.meaning)}</p><p class="certainty"><strong>רמת ודאות אטימולוגית:</strong> ${escapeHtml(n.certainty||"בבדיקה")}</p><h3>מקור לשוני</h3><p>${escapeHtml(n.linguistic)}</p><h3>משמעות / הקשר תרבותי</h3><p>${escapeHtml(n.cultural)}</p>${Array.isArray(n.sources)&&n.sources.length?'<h3>מקורות</h3><ul>'+n.sources.filter(s=>{try{return ["https:"].includes(new URL(s.url).protocol)}catch{return false}}).map(s=>`<li><a href="${escapeHtml(s.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(s.title||"מקור")}</a></li>`).join("")+'</ul>':'<p class="source-note">טרם צורף מקור חיצוני מאומת לרשומה זו.</p>'}</article>`).join("")||"<p>לא נמצאו שמות מתאימים.</p>";
 }
 async function loadNames(){
  count.textContent="טוען שמות…";cards.innerHTML="";
@@ -43,10 +43,8 @@ const nameRecordings={
  abd:new Audio("/audio/Generated%20Audio%20September%2021%2C%202026%20-%202_54PM.wav")
 };
 Object.values(nameRecordings).forEach(audio=>{audio.preload="auto"});
-function speakArabic(text){
- const normalized=text.trim();
- const recording=/^عَبْدُ الله$|^عبد الله$/.test(normalized)?nameRecordings.abdallah:
-  /^عَبْد$|^عَبْدْ$|^عبد$/.test(normalized)?nameRecordings.abd:null;
+function speakArabic(text,nameId){
+ const recording=nameRecordings[nameId]||null;
  if("speechSynthesis" in window)speechSynthesis.cancel();
  Object.values(nameRecordings).forEach(audio=>{audio.pause();audio.currentTime=0});
  if(recording){
@@ -61,4 +59,4 @@ function speakArabic(text){
  u.rate=.82;
  speechSynthesis.speak(u);
 }
-cards.addEventListener("click",e=>{const b=e.target.closest(".speak");if(b)speakArabic(b.dataset.ar)});
+cards.addEventListener("click",e=>{const b=e.target.closest(".speak");if(b)speakArabic(b.dataset.ar,b.dataset.nameId)});
