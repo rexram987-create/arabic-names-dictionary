@@ -465,7 +465,13 @@
     "linguistic": "سحر הוא הזמן האחרון של הלילה, סמוך לשחר.",
     "cultural": "שם פיוטי הקשור לשקט וליופי של טרם־שחר.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: سحر — הזמן שלפני עלות השחר",
+        "url": "https://en.wiktionary.org/wiki/سحر"
+      }
+    ]
   },
   {
     "id": "reem",
@@ -477,7 +483,13 @@
     "linguistic": "ريم הוא כינוי מסורתי לצבי, במיוחד בשירה.",
     "cultural": "בשירה הערבית הצבי הוא דימוי ליופי ולעיניים יפות.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: ريم — אנטילופה ושם פרטי",
+        "url": "https://en.wiktionary.org/wiki/ريم"
+      }
+    ]
   },
   {
     "id": "aya",
@@ -489,7 +501,13 @@
     "linguistic": "آية פירושה סימן או ראיה, ובהקשר הקוראני — פסוק.",
     "cultural": "שם נפוץ בעל משמעות רוחנית ודתית לצד המשמעות הכללית של 'סימן'.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: آية — סימן ופסוק",
+        "url": "https://en.wiktionary.org/wiki/آية"
+      }
+    ]
   },
   {
     "id": "samara",
@@ -513,7 +531,13 @@
     "linguistic": "מן השורש ح ن ن — להתגעגע, לכמוה; המילה חנין יכולה לציין גם קול הנובע מרגש.",
     "cultural": "שם נשי ערבי נפוץ בעל גוון רגשי של געגוע לאדם, מקום או זיכרון.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: حنين — געגוע וכמיהה",
+        "url": "https://en.wiktionary.org/wiki/حنين"
+      }
+    ]
   },
   {
     "id": "sulayman",
@@ -543,7 +567,13 @@
     "linguistic": "اسم مفعول מן نصر — לעזור, לתמוך, להביא לניצחון.",
     "cultural": "שם גברי ערבי ותיק; מתקשר לניצחון ולסיוע.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: منصور — נתמך ומנצח",
+        "url": "https://en.wiktionary.org/wiki/منصور"
+      }
+    ]
   },
   {
     "id": "ibrahim",
@@ -555,7 +585,13 @@
     "linguistic": "שם שמי עתיק שהגיע לערבית במסורת המקראית והקוראנית.",
     "cultural": "אברהם/איבראהים הוא דמות מרכזית ביהדות, בנצרות ובאסלאם.",
     "category": "biblical",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: إبراهيم — הצורה הערבית של אברהם",
+        "url": "https://en.wiktionary.org/wiki/إبراهيم"
+      }
+    ]
   },
   {
     "id": "yaqub",
@@ -567,7 +603,13 @@
     "linguistic": "שם שמי מקראי עתיק המקביל ליעקב בעברית.",
     "cultural": "יעקוב הוא יעקב המקראי ונביא במסורת האסלאמית.",
     "category": "biblical",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: يعقوب — הצורה הערבית של יעקב",
+        "url": "https://en.wiktionary.org/wiki/يعقوب"
+      }
+    ]
   },
   {
     "id": "musa",
@@ -579,7 +621,13 @@
     "linguistic": "שם עתיק שמקורו ההיסטורי אינו ערבי; בערבית התקבע בצורת موسى.",
     "cultural": "מוסא הוא משה המקראי, מן הנביאים המרכזיים בקוראן.",
     "category": "biblical",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: موسى — הצורה הערבית של משה",
+        "url": "https://en.wiktionary.org/wiki/موسى"
+      }
+    ]
   },
   {
     "id": "dawud",
@@ -591,7 +639,13 @@
     "linguistic": "שם שמי מקראי עתיק המקביל לדוד בעברית.",
     "cultural": "דאוד הוא דוד המלך והנביא במסורת האסלאמית.",
     "category": "biblical",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: داود — הצורה הערבית של דוד",
+        "url": "https://en.wiktionary.org/wiki/داود"
+      }
+    ]
   },
   {
     "id": "harun",
@@ -603,7 +657,13 @@
     "linguistic": "שם מקראי עתיק שהתקבע בערבית בצורת هارون.",
     "cultural": "הארון הוא אהרן, אחיו של משה, ונביא במסורת האסלאמית.",
     "category": "biblical",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: هارون — הצורה הערבית של אהרן",
+        "url": "https://en.wiktionary.org/wiki/هارون"
+      }
+    ]
   },
   {
     "id": "ishaq",
