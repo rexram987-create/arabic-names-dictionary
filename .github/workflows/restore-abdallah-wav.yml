@@ -1,0 +1,37 @@
+name: Restore Abdallah original WAV
+on:
+  push:
+    paths:
+      - 'audio/.abdallah-ready'
+permissions:
+  contents: write
+jobs:
+  restore:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Reassemble and verify losslessly transferred WAV
+        shell: bash
+        run: |
+          python - <<'PY'
+          import base64, hashlib, lzma
+          from pathlib import Path
+          pieces = sorted(Path('audio').glob('.abdallah-part-*'))
+          assert len(pieces) == 8, f'Expected 8 transfer pieces, found {len(pieces)}'
+          encoded = ''.join(p.read_text().strip() for p in pieces)
+          original = lzma.decompress(base64.b64decode(encoded, validate=True))
+          assert len(original) == 63404, 'Unexpected WAV size'
+          assert hashlib.sha256(original).hexdigest() == 'b55b9df33d55df9476a61211b275c7f88bfc3ea74201f53b3bc0d5e70651e054', 'WAV checksum mismatch'
+          assert original.startswith(b'RIFF') and original[8:12] == b'WAVE', 'Not WAV'
+          Path('audio/abdallah.wav').write_bytes(original)
+          print('Verified and restored original WAV:', len(original), 'bytes')
+          PY
+      - name: Commit original WAV
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audio/abdallah.wav
+          git diff --cached --quiet || (git commit -m "Restore unmodified Abdallah WAV recording" && git push)
