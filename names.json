@@ -1447,7 +1447,13 @@
     "linguistic": "رباب הוא שם נשי עתיק וגם שמו של כלי נגינה מסורתי.",
     "cultural": "השם מזוהה בתרבות הערבית גם עם מוזיקה מסורתית.",
     "category": "general",
-    "certainty": "מספר פירושים או מסורות"
+    "certainty": "מספר פירושים או מסורות",
+    "sources": [
+      {
+        "title": "ויקימילון: رباب — כלי הנגינה ושם נשי",
+        "url": "https://en.wiktionary.org/wiki/رباب"
+      }
+    ]
   },
   {
     "id": "amalina",
@@ -1459,7 +1465,13 @@
     "linguistic": "ריבוי של أُمْنِيَّة — משאלה/שאיפה.",
     "cultural": "שם נשי המבטא תקוות ומשאלות.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: أُمْنِيَّة — משאלה (צורת היחיד)",
+        "url": "https://en.wiktionary.org/wiki/أمنية"
+      }
+    ]
   },
   {
     "id": "iman",
@@ -1471,7 +1483,13 @@
     "linguistic": "מן השורש أ م ن; إيمان הוא אמונה או אמון דתי.",
     "cultural": "משמש גם כשם גברי בחלק מן החברות, אך נפוץ מאוד כשם נשי.",
     "category": "general",
-    "certainty": "מספר פירושים או מסורות"
+    "certainty": "מספר פירושים או מסורות",
+    "sources": [
+      {
+        "title": "ויקימילון: إيمان — אמונה",
+        "url": "https://en.wiktionary.org/wiki/إيمان"
+      }
+    ]
   },
   {
     "id": "ikram",
@@ -1483,7 +1501,13 @@
     "linguistic": "מן השורש ك ر م — כבוד ונדיבות.",
     "cultural": "משמש לנשים וגם לגברים באזורים שונים.",
     "category": "general",
-    "certainty": "מספר פירושים או מסורות"
+    "certainty": "מספר פירושים או מסורות",
+    "sources": [
+      {
+        "title": "ויקימילון: إكرام — כיבוד והוקרה",
+        "url": "https://en.wiktionary.org/wiki/إكرام"
+      }
+    ]
   },
   {
     "id": "ilham",
@@ -1495,7 +1519,13 @@
     "linguistic": "מן השורש ل ه م; إلهام הוא השראה או רעיון המוטבע בלב/תודעה.",
     "cultural": "משמש כשם לנשים וגם לגברים, בהתאם לאזור.",
     "category": "general",
-    "certainty": "מספר פירושים או מסורות"
+    "certainty": "מספר פירושים או מסורות",
+    "sources": [
+      {
+        "title": "ויקימילון: إلهام — השראה",
+        "url": "https://en.wiktionary.org/wiki/إلهام"
+      }
+    ]
   },
   {
     "id": "muna",
@@ -1507,7 +1537,13 @@
     "linguistic": "ריבוי של مُنْيَة — משאלה או דבר נכסף.",
     "cultural": "שם נשי ותיק המבטא שאיפות ומשאלות.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: منى — משאלות",
+        "url": "https://en.wiktionary.org/wiki/منى"
+      }
+    ]
   },
   {
     "id": "nadia",
@@ -1531,7 +1567,13 @@
     "linguistic": "מן השורש ن ع م — נועם, רווחה וברכה.",
     "cultural": "שם נשי הקשור לנועם ולחיים טובים.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: نعيم — נועם ואושר (מאותו שורש)",
+        "url": "https://en.wiktionary.org/wiki/نعيم"
+      }
+    ]
   },
   {
     "id": "samia",
@@ -1543,7 +1585,13 @@
     "linguistic": "צורת הנקבה של سامي, מן השורש س م و — גובה ורוממות.",
     "cultural": "שם המבטא רוממות ומעמד נעלה.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: سامية — נעלה ורמה",
+        "url": "https://en.wiktionary.org/wiki/سامية"
+      }
+    ]
   },
   {
     "id": "sana",
@@ -1555,7 +1603,13 @@
     "linguistic": "سناء מציין זוהר ובהירות ולעיתים רוממות.",
     "cultural": "לא להתבלבל עם صنعاء, העיר צנעא בתימן.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "מילון المعاني: سناء — זוהר ובהירות",
+        "url": "https://www.almaany.com/ar/dict/ar-ar/سناء/"
+      }
+    ]
   },
   {
     "id": "shatha",
@@ -1567,7 +1621,13 @@
     "linguistic": "شذى הוא ניחוח ריחני המתפשט באוויר.",
     "cultural": "שם נשי פיוטי הקשור לבושם ולפרחים.",
     "category": "general",
-    "certainty": "גבוהה"
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "מילון المعاني: شذى — ניחוח",
+        "url": "https://www.almaany.com/ar/dict/ar-ar/شذى/"
+      }
+    ]
   },
   {
     "id": "duha",
