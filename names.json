@@ -2704,5 +2704,203 @@
         "url": "https://en.wiktionary.org/wiki/%D9%86%D8%AC%D9%88%D9%89"
       }
     ]
+  },
+  {
+    "id": "amina",
+    "he": "אַמְנָה",
+    "ar": "آمِنَة",
+    "latin": "Amina / Aminah",
+    "gender": "female",
+    "meaning": "בטוחה, מוגנת או שלווה.",
+    "linguistic": "בינוני פועל נקבה מן השורש أ־م־ن — ביטחון ואמון.",
+    "cultural": "שם נשי בשימוש בקרב פלסטינים ובמדינות ערב נוספות.",
+    "category": "general",
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: آمنة — מקור לשוני",
+        "url": "https://en.wiktionary.org/wiki/%D8%A2%D9%85%D9%86%D8%A9"
+      }
+    ]
+  },
+  {
+    "id": "raed",
+    "he": "רַאאֶד",
+    "ar": "رَائِد",
+    "latin": "Raed / Ra'id",
+    "gender": "male",
+    "meaning": "חלוץ, מוביל או מי שמקדים אחרים.",
+    "linguistic": "בינוני פועל מן ר־ו־ד (راد), בהקשר של יציאה לחיפוש או סיור.",
+    "cultural": "שם גברי בשימוש בחברה הפלסטינית ובעולם הערבי.",
+    "category": "general",
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: رائد — מקור לשוני",
+        "url": "https://en.wiktionary.org/wiki/%D8%B1%D8%A7%D8%A6%D8%AF"
+      }
+    ]
+  },
+  {
+    "id": "manal",
+    "he": "מַנַאל",
+    "ar": "مَنَال",
+    "latin": "Manal",
+    "gender": "female",
+    "meaning": "דבר שניתן להשיג; הישג או משאלה שהושגה.",
+    "linguistic": "מן השורש ن־ي־ل — להשיג או לקבל.",
+    "cultural": "שם נשי בשימוש בחברה הפלסטינית ובעולם הערבי.",
+    "category": "general",
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: منال — מקור לשוני",
+        "url": "https://en.wiktionary.org/wiki/%D9%85%D9%86%D8%A7%D9%84"
+      }
+    ]
+  },
+  {
+    "id": "imad",
+    "he": "עִמַאד",
+    "ar": "عِمَاد",
+    "latin": "Imad / Emad",
+    "gender": "male",
+    "meaning": "עמוד תווך, תמיכה או משענת.",
+    "linguistic": "שם עצם מן השורש ع־م־د — עמוד ותמיכה.",
+    "cultural": "שם גברי בשימוש בחברה הפלסטינית ובעולם הערבי.",
+    "category": "general",
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: عماد — מקור לשוני",
+        "url": "https://en.wiktionary.org/wiki/%D8%B9%D9%85%D8%A7%D8%AF"
+      }
+    ]
+  },
+  {
+    "id": "iyad",
+    "he": "אִיַאד",
+    "ar": "إِيَاد",
+    "latin": "Iyad / Eyad",
+    "gender": "male",
+    "meaning": "תמיכה, כוח או משענת.",
+    "linguistic": "שם ערבי עתיק מן השורש أ־ي־د, הקשור לכוח ולסיוע.",
+    "cultural": "שם גברי בשימוש בחברה הפלסטינית ובעולם הערבי.",
+    "category": "general",
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: إياد — מקור לשוני",
+        "url": "https://en.wiktionary.org/wiki/%D8%A5%D9%8A%D8%A7%D8%AF"
+      }
+    ]
+  },
+  {
+    "id": "aisha",
+    "he": "עַאאִשָׁה",
+    "ar": "عَائِشَة",
+    "latin": "Aisha / Ayesha",
+    "gender": "female",
+    "meaning": "חיה, בעלת חיים.",
+    "linguistic": "בינוני פועל נקבה מן השורש ع־ي־ش — לחיות.",
+    "cultural": "שם נשי מוכר בחברה הפלסטינית ובעולם המוסלמי; עאאשה הייתה אשת הנביא מוחמד.",
+    "category": "general",
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: عائشة — מקור לשוני",
+        "url": "https://en.wiktionary.org/wiki/%D8%B9%D8%A7%D8%A6%D8%B4%D8%A9"
+      }
+    ]
+  },
+  {
+    "id": "khalil",
+    "he": "חַ'לִיל",
+    "ar": "خَلِيل",
+    "latin": "Khalil",
+    "gender": "male",
+    "meaning": "חבר קרוב או ידיד אהוב.",
+    "linguistic": "שם עצם מן השורש خ־ل־ل בהקשר של חברות קרובה.",
+    "cultural": "שם גברי בשימוש בחברה הפלסטינית ובעולם הערבי.",
+    "category": "general",
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: خليل — מקור לשוני",
+        "url": "https://en.wiktionary.org/wiki/%D8%AE%D9%84%D9%8A%D9%84"
+      }
+    ]
+  },
+  {
+    "id": "ayman",
+    "he": "אַיְמַן",
+    "ar": "أَيْمَن",
+    "latin": "Ayman / Aiman",
+    "gender": "male",
+    "meaning": "קשור לצד ימין; מבורך או בר מזל.",
+    "linguistic": "מן השורש ي־م־ن, הקשור לימין ולברכה.",
+    "cultural": "שם גברי בשימוש בחברה הפלסטינית ובעולם הערבי.",
+    "category": "general",
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: أيمن — מקור לשוני",
+        "url": "https://en.wiktionary.org/wiki/%D8%A3%D9%8A%D9%85%D9%86"
+      }
+    ]
+  },
+  {
+    "id": "nisreen",
+    "he": "נִסְרִין",
+    "ar": "نِسْرِين",
+    "latin": "Nisreen / Nesrin",
+    "gender": "female",
+    "meaning": "ורד בר; שם של פרח.",
+    "linguistic": "שם ממקור פרסי שנקלט בערבית ובשפות נוספות.",
+    "cultural": "שם נשי בשימוש בחברה הפלסטינית ובעולם הערבי.",
+    "category": "general",
+    "certainty": "בינונית",
+    "sources": [
+      {
+        "title": "ויקימילון: نسرين — מקור לשוני",
+        "url": "https://en.wiktionary.org/wiki/%D9%86%D8%B3%D8%B1%D9%8A%D9%86"
+      }
+    ]
+  },
+  {
+    "id": "abeer",
+    "he": "עַבִּיר",
+    "ar": "عَبِير",
+    "latin": "Abeer / Abir",
+    "gender": "female",
+    "meaning": "ניחוח או ריח טוב.",
+    "linguistic": "שם עצם ערבי הקשור לבושם ולריח נעים.",
+    "cultural": "שם נשי בשימוש בחברה הפלסטינית ובעולם הערבי.",
+    "category": "general",
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: عبير — מקור לשוני",
+        "url": "https://en.wiktionary.org/wiki/%D8%B9%D8%A8%D9%8A%D8%B1"
+      }
+    ]
+  },
+  {
+    "id": "yahya",
+    "he": "יַחְיַא",
+    "ar": "يَحْيَى",
+    "latin": "Yahya / Yehya",
+    "gender": "male",
+    "meaning": "יחיה; קשור לחיים.",
+    "linguistic": "מן הפועל حَيِيَ — חי; הצורה יַחְיַא פירושה 'יחיה'.",
+    "cultural": "שמו הערבי של יוחנן המטביל במסורת האסלאמית; שם בשימוש בחברה הפלסטינית ובעולם הערבי.",
+    "category": "general",
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: يحيى — מקור לשוני",
+        "url": "https://en.wiktionary.org/wiki/%D9%8A%D8%AD%D9%8A%D9%89"
+      }
+    ]
   }
 ]
