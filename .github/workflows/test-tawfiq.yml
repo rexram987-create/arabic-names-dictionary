@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - ".github/workflows/test-tawfiq.yml"
+      - "scripts/test-tawfiq.js"
 
 permissions:
   contents: write
@@ -22,6 +23,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add audio/tawfiq-test.mp3
+          git add audio/tawfiq-test2.mp3
           git commit -m "Add corrected Tawfiq pronunciation test"
           git push
