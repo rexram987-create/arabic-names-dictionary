@@ -1,0 +1,26 @@
+name: Copy approved Yasmin audio
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/copy-yasmin.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  copy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Copy approved audio
+        run: cp audio/yasmin.mp3 audio/yasmin-fixed.mp3
+      - name: Commit copied audio
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audio/yasmin-fixed.mp3
+          git commit -m "Add approved Yasmin audio under unique filename"
+          git push
