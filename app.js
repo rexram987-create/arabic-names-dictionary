@@ -56,7 +56,9 @@ function fallbackSpeech(text){
 async function speakArabic(text,nameId){
  if("speechSynthesis" in window)speechSynthesis.cancel();
  if(currentAudio){currentAudio.pause();currentAudio.currentTime=0;currentAudio=null}
- const src=legacyRecordings[nameId]||("/audio/"+encodeURIComponent(nameId)+".mp3");
+ const src=nameId==="tawfiq"
+  ? "/audio/tawfiq-test3.mp3?v=approved3"
+  : (legacyRecordings[nameId]||("/audio/"+encodeURIComponent(nameId)+".mp3"));
  const audio=new Audio(src);
  audio.preload="auto";
  currentAudio=audio;
