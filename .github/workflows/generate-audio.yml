@@ -26,7 +26,6 @@ jobs:
         env:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
           TTS_LIMIT: "10"
-          TEST_YASMIN: "1"
         run: node scripts/generate-audio.js
 
       - name: Commit generated recordings
