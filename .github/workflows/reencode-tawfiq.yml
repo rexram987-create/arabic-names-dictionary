@@ -1,0 +1,28 @@
+name: Re-encode Tawfiq audio
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/reencode-tawfiq.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  reencode:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Re-encode approved Tawfiq MP3
+        run: |
+          ffmpeg -y -i audio/tawfiq.mp3 -ar 44100 -ac 1 -c:a libmp3lame -b:a 128k -map_metadata -1 audio/tawfiq.new.mp3
+          mv audio/tawfiq.new.mp3 audio/tawfiq.mp3
+          ffprobe -v error -show_entries stream=codec_name,sample_rate,channels,bit_rate -of default=nw=1 audio/tawfiq.mp3
+      - name: Commit repaired audio
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audio/tawfiq.mp3
+          git commit -m "Re-encode Tawfiq audio for Android playback"
+          git push
