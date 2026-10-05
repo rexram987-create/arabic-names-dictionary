@@ -39,19 +39,12 @@ q.addEventListener("input",render);q.addEventListener("search",render);
 document.querySelectorAll(".filter").forEach(b=>b.onclick=()=>{const a=document.querySelector(".filter.active");if(a)a.classList.remove("active");b.classList.add("active");filter=b.dataset.filter;render()});
 if("serviceWorker"in navigator)addEventListener("load",()=>navigator.serviceWorker.register("/sw.js").catch(console.warn));
 let dp;const ib=document.querySelector("#install");addEventListener("beforeinstallprompt",e=>{e.preventDefault();dp=e;ib.hidden=false});ib.onclick=async()=>{if(dp){dp.prompt();await dp.userChoice;dp=null;ib.hidden=true}};addEventListener("appinstalled",()=>ib.hidden=true);
-const nameRecordings={
- abdallah:new Audio("/audio/Generated%20Audio%20September%2021%2C%202026%20-%201_41PM.wav"),
- abd:new Audio("/audio/Generated%20Audio%20September%2021%2C%202026%20-%202_54PM.wav")
+const legacyRecordings={
+ abdallah:"/audio/Generated%20Audio%20September%2021%2C%202026%20-%201_41PM.wav",
+ abd:"/audio/Generated%20Audio%20September%2021%2C%202026%20-%202_54PM.wav"
 };
-Object.values(nameRecordings).forEach(audio=>{audio.preload="auto"});
-function speakArabic(text,nameId){
- const recording=nameRecordings[nameId]||null;
- if("speechSynthesis" in window)speechSynthesis.cancel();
- Object.values(nameRecordings).forEach(audio=>{audio.pause();audio.currentTime=0});
- if(recording){
-  recording.play().catch(()=>{count.textContent="לא ניתן להשמיע את ההקלטה כרגע. נסה שוב.";});
-  return;
- }
+let currentAudio=null;
+function fallbackSpeech(text){
  if(!("speechSynthesis" in window)){count.textContent="המכשיר אינו תומך בהקראה.";return}
  const u=new SpeechSynthesisUtterance(text);
  u.lang="ar";
@@ -59,5 +52,19 @@ function speakArabic(text,nameId){
  if(ar)u.voice=ar;
  u.rate=.82;
  speechSynthesis.speak(u);
+}
+async function speakArabic(text,nameId){
+ if("speechSynthesis" in window)speechSynthesis.cancel();
+ if(currentAudio){currentAudio.pause();currentAudio.currentTime=0;currentAudio=null}
+ const src=legacyRecordings[nameId]||("/audio/"+encodeURIComponent(nameId)+".mp3");
+ const audio=new Audio(src);
+ audio.preload="auto";
+ currentAudio=audio;
+ try{
+  await audio.play();
+ }catch(err){
+  if(currentAudio===audio)currentAudio=null;
+  fallbackSpeech(text);
+ }
 }
 cards.addEventListener("click",e=>{const b=e.target.closest(".speak");if(b)speakArabic(b.dataset.ar,b.dataset.nameId)});
