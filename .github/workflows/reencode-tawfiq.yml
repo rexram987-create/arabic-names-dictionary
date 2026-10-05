@@ -14,6 +14,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Install FFmpeg
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
       - name: Re-encode approved Tawfiq MP3
         run: |
           ffmpeg -y -i audio/tawfiq.mp3 -ar 44100 -ac 1 -c:a libmp3lame -b:a 128k -map_metadata -1 audio/tawfiq.new.mp3
