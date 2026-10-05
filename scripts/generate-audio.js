@@ -4,7 +4,6 @@ const path = require("path");
 const VOICE_ID = "7mzPatjHwOs2bAMf0qIb";
 const API_KEY = process.env.ELEVENLABS_API_KEY;
 const LIMIT = Number(process.env.TTS_LIMIT || "10");
-const TEST_YASMIN = process.env.TEST_YASMIN === "1";
 
 if (!API_KEY) {
   console.error("Missing ELEVENLABS_API_KEY");
@@ -51,11 +50,6 @@ async function generate(name) {
 }
 
 (async () => {
-  if (TEST_YASMIN) {
-    await generate({ id: "yasmin-test", ar: "ياسمين." });
-    console.log("Finished Yasmin pronunciation test.");
-    return;
-  }
   let created = 0;
   for (const name of names) {
     if (!name?.id || !name?.ar) continue;
