@@ -6,7 +6,8 @@ if (!API_KEY) process.exit(1);
 
 (async () => {
   // Phonetic spelling: final qaaf gets a short vowel so ElevenLabs does not swallow it.
-  const text = "تَوْفِيقَ";
+  const text = "تَوْفِيق.";
+  // A full stop gives the final qaaf a hard word boundary without adding a vowel.
   const response = await fetch(
     `https://api.elevenlabs.io/v1/text-to-speech/${VOICE_ID}?output_format=mp3_44100_128`,
     {
@@ -20,6 +21,6 @@ if (!API_KEY) process.exit(1);
     }
   );
   if (!response.ok) throw new Error(await response.text());
-  fs.writeFileSync("audio/tawfiq-test2.mp3", Buffer.from(await response.arrayBuffer()));
-  console.log("Created Tawfiq pronunciation test 2:", text);
+  fs.writeFileSync("audio/tawfiq-test3.mp3", Buffer.from(await response.arrayBuffer()));
+  console.log("Created Tawfiq pronunciation test 3:", text);
 })().catch(e => { console.error(e); process.exit(1); });
