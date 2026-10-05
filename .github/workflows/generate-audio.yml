@@ -1,5 +1,4 @@
-name: Generate Arabic name audio 
-
+name: Generate Arabic name audio  
 on:
   workflow_dispatch:
     inputs:
