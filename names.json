@@ -2902,5 +2902,171 @@
         "url": "https://en.wiktionary.org/wiki/%D9%8A%D8%AD%D9%8A%D9%89"
       }
     ]
+  },
+  {
+    "id": "saeb",
+    "he": "סַאאִבּ",
+    "ar": "صَائِب",
+    "latin": "Saeb / Sa'ib",
+    "gender": "male",
+    "meaning": "קולע למטרה, צודק או מדויק.",
+    "linguistic": "בינוני פועל מן הפועל صَابَ — פגע במטרה או צדק.",
+    "cultural": "שם גברי ערבי ותיק; משמעותו מתקשרת לדיוק ולקליעה נכונה.",
+    "category": "general",
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: صائب — קולע, צודק",
+        "url": "https://en.wiktionary.org/wiki/صائب"
+      }
+    ]
+  },
+  {
+    "id": "riyad",
+    "he": "רִיַאד",
+    "ar": "رِيَاض",
+    "latin": "Riyad / Riad",
+    "gender": "male",
+    "meaning": "גנים או כרי־דשא.",
+    "linguistic": "ריבוי של رَوْضَة — גן או אחו ירוק.",
+    "cultural": "שם גברי נפוץ בעולם הערבי; זהו גם שמה של בירת ערב הסעודית.",
+    "category": "general",
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: رياض — גנים",
+        "url": "https://en.wiktionary.org/wiki/رياض"
+      }
+    ]
+  },
+  {
+    "id": "zakaria",
+    "he": "זַכַּרִיַּא",
+    "ar": "زَكَرِيَّا",
+    "latin": "Zakaria / Zakariya",
+    "gender": "male",
+    "meaning": "זכריה; שם מקראי שפירושו במסורת העברית 'ה׳ זכר'.",
+    "linguistic": "הצורה הערבית של השם העברי זכריה, דרך המסורת השמית והדתית.",
+    "cultural": "זכריא הוא נביא בקוראן ומקביל לזכריה במסורות היהודית והנוצרית.",
+    "category": "biblical",
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: زكريا — זכריה",
+        "url": "https://en.wiktionary.org/wiki/زكريا"
+      }
+    ]
+  },
+  {
+    "id": "khaled",
+    "he": "חַ'אלֶד",
+    "ar": "خَالِد",
+    "latin": "Khaled / Khalid",
+    "gender": "male",
+    "meaning": "נצחי, מתמיד או בן־אלמוות.",
+    "linguistic": "בינוני פועל מן השורש خ־ل־د, הקשור להישארות ולנצחיות.",
+    "cultural": "שם גברי נפוץ מאוד בעולם הערבי והמוסלמי.",
+    "category": "general",
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: خالد — נצחי",
+        "url": "https://en.wiktionary.org/wiki/خالد"
+      }
+    ]
+  },
+  {
+    "id": "rawhi",
+    "he": "רוּחִי",
+    "ar": "رُوحِي",
+    "latin": "Rawhi / Rouhi",
+    "gender": "male",
+    "meaning": "רוחני; קשור לרוח או לנשמה.",
+    "linguistic": "נגזר מן המילה رُوح — רוח או נשמה, עם סיומת יחס.",
+    "cultural": "שם גברי ערבי המתקשר לרוח ולנשמה.",
+    "category": "general",
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: روح — רוח, נשמה",
+        "url": "https://en.wiktionary.org/wiki/روح"
+      }
+    ]
+  },
+  {
+    "id": "nizar",
+    "he": "נִזַאר",
+    "ar": "نِزَار",
+    "latin": "Nizar",
+    "gender": "male",
+    "meaning": "שם ערבי עתיק; משמעותו האטימולוגית המדויקת אינה ודאית לחלוטין.",
+    "linguistic": "השם מתועד בערבית מן התקופה הקדם־אסלאמית; מקורות שונים מציעים קשר למעטות או למיעוט, אך יש להיזהר מהצגת פירוש יחיד כוודאי.",
+    "cultural": "שם גברי ותיק בעולם הערבי, המוכר גם משושלות ויוחסין ערביים קדומים.",
+    "category": "general",
+    "certainty": "מקור/אטימולוגיה לא ודאיים",
+    "sources": [
+      {
+        "title": "ויקימילון: نزار — שם פרטי",
+        "url": "https://en.wiktionary.org/wiki/نزار"
+      }
+    ]
+  },
+  {
+    "id": "zaher",
+    "he": "זַאהֶר",
+    "ar": "زَاهِر",
+    "latin": "Zaher / Zahir",
+    "gender": "male",
+    "meaning": "זוהר, בהיר או פורח.",
+    "linguistic": "בינוני פועל מן השורש ز־ه־ر, הקשור לפריחה, בהירות וזוהר.",
+    "cultural": "שם גברי ערבי בעל אסוציאציות של אור, יופי ופריחה.",
+    "category": "general",
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: زاهر — זוהר ופורח",
+        "url": "https://en.wiktionary.org/wiki/زاهر"
+      }
+    ]
+  },
+  {
+    "id": "osama",
+    "he": "אוּסַאמַה",
+    "ar": "أُسَامَة",
+    "latin": "Osama / Usama",
+    "gender": "male",
+    "meaning": "אריה.",
+    "linguistic": "أُسَامَة הוא אחד הכינויים הערביים המסורתיים לאריה.",
+    "cultural": "שם גברי ערבי עתיק; משמעות האריה מתקשרת במסורת לכוח ולאומץ.",
+    "category": "general",
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: أسامة — שם וכינוי לאריה",
+        "url": "https://en.wiktionary.org/wiki/أسامة"
+      }
+    ]
+  },
+  {
+    "id": "abdulaziz",
+    "he": "עַבְּד אל־עַזִיז",
+    "ar": "عَبْدُ الْعَزِيز",
+    "latin": "Abd al-Aziz / Abdulaziz",
+    "gender": "male",
+    "meaning": "עבדו או משרתו של אל־עזיז ('האדיר', 'רב־העוצמה').",
+    "linguistic": "שם תאופורי מורכב: عبد — עבד/משרת, ו־العزيز — 'האדיר' או 'רב־העוצמה', אחד משמות האל באסלאם.",
+    "cultural": "שם גברי מוסלמי מסורתי ונפוץ בארצות ערב.",
+    "category": "general",
+    "certainty": "גבוהה",
+    "sources": [
+      {
+        "title": "ויקימילון: عبد العزيز — שם פרטי",
+        "url": "https://en.wiktionary.org/wiki/عبد_العزيز"
+      },
+      {
+        "title": "ויקימילון: عزيز — אדיר, יקר",
+        "url": "https://en.wiktionary.org/wiki/عزيز"
+      }
+    ]
   }
 ]
