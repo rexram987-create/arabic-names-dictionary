@@ -65,7 +65,12 @@ async function speakArabic(text,nameId){
  try{
   await audio.play();
  }catch(err){
+  console.error("Pronunciation audio failed",nameId,src,err);
   if(currentAudio===audio)currentAudio=null;
+  if(nameId==="tawfiq"){
+    count.textContent="שגיאה בהשמעת הקלטת תופיק.";
+    return;
+  }
   fallbackSpeech(text);
  }
 }
