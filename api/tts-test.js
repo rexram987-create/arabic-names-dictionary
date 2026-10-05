@@ -1,4 +1,4 @@
-const VOICE_ID = "gMB389pj77Qe5nErWNjd";
+const VOICE_ID = "7mzPatjHwOs2bAMf0qIb";
 const TEST_NAMES = {
   saeb: "صَائِب",
   khaled: "خَالِد",
