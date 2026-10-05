@@ -4,7 +4,9 @@ const TEST_NAMES = {
   khaled: "خَالِد",
   zaher: "زَاهِر",
   nizar: "نِزَار",
-  riyad: "رِيَاض"
+  riyad: "رِيَاض",
+  yahya: "يَحْيَى",
+  abdulaziz: "عَبْدُ الْعَزِيز"
 };
 
 module.exports = async (req, res) => {
