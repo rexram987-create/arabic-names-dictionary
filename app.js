@@ -38,7 +38,7 @@ async function loadNames(){
 loadNames();
 q.addEventListener("input",render);q.addEventListener("search",render);
 document.querySelectorAll(".filter").forEach(b=>b.onclick=()=>{const a=document.querySelector(".filter.active");if(a)a.classList.remove("active");b.classList.add("active");filter=b.dataset.filter;render()});
-if("serviceWorker"in navigator)addEventListener("load",()=>navigator.serviceWorker.register("/sw.js?v=24",{updateViaCache:"none"}).then(r=>r.update()).catch(console.warn));
+if("serviceWorker"in navigator)addEventListener("load",()=>navigator.serviceWorker.register("/sw.js?v=25",{updateViaCache:"none"}).then(r=>r.update()).catch(console.warn));
 let dp;const ib=document.querySelector("#install");addEventListener("beforeinstallprompt",e=>{e.preventDefault();dp=e;ib.hidden=false});ib.onclick=async()=>{if(dp){dp.prompt();await dp.userChoice;dp=null;ib.hidden=true}};addEventListener("appinstalled",()=>ib.hidden=true);
 const legacyRecordings={
  abdallah:"/audio/Generated%20Audio%20September%2021%2C%202026%20-%201_41PM.wav",
@@ -57,7 +57,7 @@ function fallbackSpeech(text){
 async function speakArabic(text,nameId){
  if("speechSynthesis" in window)speechSynthesis.cancel();
  if(currentAudio){currentAudio.pause();currentAudio.currentTime=0;currentAudio=null}
- const src=legacyRecordings[nameId]||("/audio/"+encodeURIComponent(nameId)+".mp3?v=24");
+ const src=nameId==="tawfiq"?"/audio/tawfiq.wav?v=25":legacyRecordings[nameId]||("/audio/"+encodeURIComponent(nameId)+".mp3?v=25");
  const audio=new Audio(src);
  audio.preload="auto";
  currentAudio=audio;
