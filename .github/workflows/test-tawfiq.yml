@@ -1,0 +1,27 @@
+name: Test Tawfiq pronunciation
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/test-tawfiq.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate Tawfiq test
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+        run: node scripts/test-tawfiq.js
+      - name: Commit test audio
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audio/tawfiq-test.mp3
+          git commit -m "Add corrected Tawfiq pronunciation test"
+          git push
